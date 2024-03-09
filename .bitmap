@@ -40,7 +40,7 @@
     "tk-ui-react-v2": {
         "name": "tk-ui-react-v2",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2"
     },
@@ -54,7 +54,7 @@
     "tk-ui-react-v2-web": {
         "name": "tk-ui-react-v2-web",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2-web"
     },
@@ -68,7 +68,7 @@
     "ui/nav-bar": {
         "name": "ui/nav-bar",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/ui/nav-bar"
     },
