@@ -1,7 +1,12 @@
+import { colorsTokensDark } from './colors-tokens-dark.js';
 import { Colors } from './colors.js';
 
 export const BasicColors = () => {
-  return <Colors>hello world!</Colors>;
+  return <Colors overrides={undefined}>hello world!</Colors>;
+};
+
+export const BasicColorsDark = () => {
+  return <Colors overrides={colorsTokensDark}>hello dark world!</Colors>;
 };
 
 export const ThemeUsage = () => {

@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import classNames from 'classnames';
 import { ColorsProvider } from './colors-provider.js';
 import styles from './colors.module.scss';
+import { ColorsSchema } from './colors-tokens.js';
 
 export type ColorsProps = {
   /**
@@ -14,6 +15,7 @@ export type ColorsProps = {
    * this allows people to affect your theme. remove to avoid.
    */
   className?: string;
+  overrides?: ColorsSchema;
 };
 
 /**
