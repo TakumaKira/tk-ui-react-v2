@@ -17,7 +17,7 @@ export function MyComponent() {
   const theme = useThemeSwitcher();
   return (
     <Colors overrides={theme === Theme.DARK ? colorsTokensDark : undefined}>
-      The count is {response.count}
+      The theme is {theme}
     </Colors>
   );
 }

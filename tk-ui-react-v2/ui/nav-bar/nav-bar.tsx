@@ -7,7 +7,11 @@ export type NavBarProps = {
    */
   children?: string;
   height?: number;
-  titleStyles?: CSSModuleClasses['string'];
+  /**
+   * sets the property of the object imported from *.module.scss.
+   * @example titleStyles={styles.title}
+   */
+  titleStyles?: string;
 };
 
 export function NavBar({ children, height = 64, titleStyles = styles.titleDefault }: NavBarProps) {
