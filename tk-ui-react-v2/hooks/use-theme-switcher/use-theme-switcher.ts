@@ -11,11 +11,9 @@ export enum Theme {
 export function useThemeSwitcher() {
   const [colorScheme, setColorScheme] = useState<MediaQueryList>()
   const setColorSchemeWhenAvailable = () => {
-    if (colorScheme) return
-    if (!window) return
     setColorScheme(window.matchMedia('(prefers-color-scheme: dark)'))
   }
-  useEffect(setColorSchemeWhenAvailable, [window])
+  useEffect(setColorSchemeWhenAvailable, [])
 
   const [theme, setTheme] = useState<Theme>()
   const getInitialTheme = () => {
