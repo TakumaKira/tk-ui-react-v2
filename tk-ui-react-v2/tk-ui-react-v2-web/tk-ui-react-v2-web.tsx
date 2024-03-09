@@ -5,7 +5,7 @@ import { NavBar } from '@takumakira-individual/tk-ui-react-v2.ui.nav-bar';
 import styles from './tk-ui-react-v2-web.module.scss';
 
 export function TkUiReactV2Web() {
-  const theme = useThemeSwitcher(window)
+  const theme = useThemeSwitcher()
   return (
     <Colors overrides={theme === Theme.DARK ? colorsTokensDark : undefined}>
       <div className={classNames(styles.container)}>

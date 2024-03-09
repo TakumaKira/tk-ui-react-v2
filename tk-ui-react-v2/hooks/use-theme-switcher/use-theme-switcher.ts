@@ -8,7 +8,7 @@ export enum Theme {
 /**
  * A useThemeSwitcher React hook.
  */
-export function useThemeSwitcher(window?: Window & typeof globalThis) {
+export function useThemeSwitcher() {
   const [colorScheme, setColorScheme] = useState<MediaQueryList>()
   const setColorSchemeWhenAvailable = () => {
     if (colorScheme) return
