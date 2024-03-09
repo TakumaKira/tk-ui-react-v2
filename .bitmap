@@ -68,7 +68,7 @@
     "ui/nav-bar": {
         "name": "ui/nav-bar",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/ui/nav-bar"
     },
