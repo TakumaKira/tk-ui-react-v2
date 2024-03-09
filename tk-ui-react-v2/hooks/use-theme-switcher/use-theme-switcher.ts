@@ -8,8 +8,8 @@ export enum Theme {
 /**
  * A useThemeSwitcher React hook.
  */
-export function useThemeSwitcher() {
-  const colorScheme = matchMedia('(prefers-color-scheme: dark)')
+export function useThemeSwitcher(window: Window & typeof globalThis) {
+  const colorScheme = window.matchMedia('(prefers-color-scheme: dark)')
   const [theme, setTheme] = useState(colorScheme.matches ? Theme.DARK : Theme.LIGHT)
 
   const onChangeColorScheme = ({ matches }) => {
