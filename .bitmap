@@ -208,5 +208,19 @@
             }
         }
     },
+    "ui/nav-bar": {
+        "name": "ui/nav-bar",
+        "scope": "",
+        "version": "",
+        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/ui/nav-bar",
+        "config": {
+            "bitdev.react/react-env@1.1.49": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
+    },
     "$schema-version": "17.0.0"
 }
