@@ -1,0 +1,38 @@
+---
+labels: ['tk-ui-react-v2-service', 'platform', 'composition', 'apps']
+description: 'The Acme corporate application composition'
+---
+
+The Acme corporate platform composition. Composes the Acme Corporate micro-service with the Acme corporate website.
+
+## Run the server 
+
+Import the platform and use the it in your workspace:
+
+```bash
+bit use tk-ui-react-v2
+```
+
+Run the server:
+```bash
+bit run tk-ui-react-v2
+```
+
+## Compose new apps
+
+You can introduce new micro-services or micro-frontends to the platform by composing the in the `tk-ui-react-v2.bit-app.ts`:
+
+```ts
+import { Platform } from '@bitdev/platforms.platform';
+
+export const MyPlatform = Platform.from({
+  name: 'tk-ui-react-v2',
+
+  backends: {
+    main: new AcmeGateway(),
+    services: [
+      DiscussionService,
+    ]
+  },
+});
+```
