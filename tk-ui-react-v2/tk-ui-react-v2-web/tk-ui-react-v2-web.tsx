@@ -1,21 +1,22 @@
-import { Routes, Route } from 'react-router-dom';
-import { NavigationProvider, Link } from '@bitdesign/sparks.navigation.link';
-import { Header } from '@bitdesign/sparks.layout.header';
-import { Logo } from '@bitdesign/sparks.content.logo';
-import { AcmeTheme } from '@acme/design.acme-theme';
-import { Announcements } from '@takumakira-individual/tk-ui-react-v2.ui.announcements';
+import classNames from 'classnames';
+import { Colors, colorsTokensDark } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
+import { useThemeSwitcher, Theme } from '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher';
+import { NavBar } from '@takumakira-individual/tk-ui-react-v2.ui.nav-bar';
+import styles from './tk-ui-react-v2-web.module.scss';
 
 export function TkUiReactV2Web() {
+  const theme = useThemeSwitcher()
+
   return (
-    <AcmeTheme>
-      <NavigationProvider>
-        <Header logo={<Logo src='https://static.bit.dev/extensions-icons/acme.svg' name='Acme' slogan='Inc.' />}>
-          <Link href='/'>Investors</Link>          
-        </Header>
-        <Routes>
-          <Route path="/" element={<Announcements />} />
-        </Routes>
-      </NavigationProvider>
-    </AcmeTheme>
+    <Colors overrides={theme === Theme.DARK ? colorsTokensDark : undefined}>
+      <div className={classNames(styles.container)}>
+        <NavBar titleStyles=''>Title</NavBar>
+        <main className={classNames(styles.main)}>
+          <div className={classNames(styles.content)}>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem expedita, ducimus, repellat obcaecati similique tempore dolores inventore asperiores cumque temporibus praesentium maxime ipsum cum ut rem sint at doloribus ad.</p>
+          </div>
+        </main>
+      </div>
+    </Colors>
   );
 }

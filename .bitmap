@@ -11,174 +11,66 @@
 {
     "entities/announcement": {
         "name": "entities/announcement",
-        "scope": "",
-        "version": "",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/entities/announcement",
-        "config": {
-            "bitdev.node/node-env@1.0.26": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.node/node-env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.component/dev-files": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.pipelines/builder": {},
-            "teambit.semantics/schema": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "acme.corporate",
-                    "name": "entities/announcement",
-                    "version": "1.0.5"
-                }
-            }
-        }
+        "rootDir": "tk-ui-react-v2/entities/announcement"
     },
     "hooks/use-announcements": {
         "name": "hooks/use-announcements",
-        "scope": "",
-        "version": "",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/hooks/use-announcements",
-        "config": {
-            "bitdev.react/react-env@1.1.49": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.component/dev-files": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.pipelines/builder": {},
-            "teambit.semantics/schema": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "acme.corporate",
-                    "name": "hooks/use-announcements",
-                    "version": "1.0.7"
-                }
-            }
-        }
+        "rootDir": "tk-ui-react-v2/hooks/use-announcements"
+    },
+    "hooks/use-theme-switcher": {
+        "name": "hooks/use-theme-switcher",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/hooks/use-theme-switcher"
+    },
+    "themes/colors": {
+        "name": "themes/colors",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/themes/colors"
     },
     "tk-ui-react-v2": {
         "name": "tk-ui-react-v2",
-        "scope": "",
-        "version": "",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/tk-ui-react-v2",
-        "config": {
-            "bitdev.node/node-env@1.0.26": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.node/node-env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.component/dev-files": {},
-            "teambit.harmony/application": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.pipelines/builder": {},
-            "teambit.semantics/schema": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "acme.corporate",
-                    "name": "acme-corporate",
-                    "version": "b00c3e71b706d0ab047aaab13fa87abd9b2f9ac7"
-                }
-            }
-        }
+        "rootDir": "tk-ui-react-v2/tk-ui-react-v2"
     },
     "tk-ui-react-v2-service": {
         "name": "tk-ui-react-v2-service",
-        "scope": "",
-        "version": "",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/tk-ui-react-v2-service",
-        "config": {
-            "bitdev.node/node-env@1.0.26": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.node/node-env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.component/dev-files": {},
-            "teambit.harmony/application": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.pipelines/builder": {},
-            "teambit.semantics/schema": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "acme.corporate",
-                    "name": "corporate-service",
-                    "version": "1.0.6"
-                }
-            }
-        }
+        "rootDir": "tk-ui-react-v2/tk-ui-react-v2-service"
     },
     "tk-ui-react-v2-web": {
         "name": "tk-ui-react-v2-web",
-        "scope": "",
-        "version": "",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/tk-ui-react-v2-web",
-        "config": {
-            "bitdev.react/react-env@1.1.49": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.component/dev-files": {},
-            "teambit.harmony/application": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.pipelines/builder": {},
-            "teambit.semantics/schema": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "acme.corporate",
-                    "name": "corporate-website",
-                    "version": "1.0.9"
-                }
-            }
-        }
+        "rootDir": "tk-ui-react-v2/tk-ui-react-v2-web"
     },
     "ui/announcements": {
         "name": "ui/announcements",
-        "scope": "",
-        "version": "",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/ui/announcements",
-        "config": {
-            "bitdev.react/react-env@1.1.42": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {},
-            "teambit.component/dev-files": {},
-            "teambit.preview/preview": {},
-            "teambit.compositions/compositions": {},
-            "teambit.docs/docs": {},
-            "teambit.pipelines/builder": {},
-            "teambit.harmony/application": {},
-            "teambit.component/forking": {
-                "forkedFrom": {
-                    "scope": "acme.corporate",
-                    "name": "ui/announcements",
-                    "version": "1.0.6"
-                }
-            }
-        }
+        "rootDir": "tk-ui-react-v2/ui/announcements"
+    },
+    "ui/nav-bar": {
+        "name": "ui/nav-bar",
+        "scope": "takumakira-individual.tk-ui-react-v2",
+        "version": "0.0.3",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/ui/nav-bar"
     },
     "$schema-version": "17.0.0"
 }
