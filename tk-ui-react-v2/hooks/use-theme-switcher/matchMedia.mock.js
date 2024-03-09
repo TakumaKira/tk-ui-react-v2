@@ -1,3 +1,5 @@
+/** @see https://jestjs.io/docs/29.4/manual-mocks */
+
 import { vi } from 'vitest'
 
 Object.defineProperty(window, 'matchMedia', {
