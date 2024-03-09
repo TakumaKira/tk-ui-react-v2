@@ -65,6 +65,34 @@
             }
         }
     },
+    "hooks/use-theme-switcher": {
+        "name": "hooks/use-theme-switcher",
+        "scope": "",
+        "version": "",
+        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/hooks/use-theme-switcher",
+        "config": {
+            "bitdev.react/react-env@1.1.49": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
+    },
+    "themes/colors": {
+        "name": "themes/colors",
+        "scope": "",
+        "version": "",
+        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/themes/colors",
+        "config": {
+            "bitdev.react/react-env@1.1.49": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
+    },
     "tk-ui-react-v2": {
         "name": "tk-ui-react-v2",
         "scope": "",
@@ -177,6 +205,20 @@
                     "name": "ui/announcements",
                     "version": "1.0.6"
                 }
+            }
+        }
+    },
+    "ui/nav-bar": {
+        "name": "ui/nav-bar",
+        "scope": "",
+        "version": "",
+        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/ui/nav-bar",
+        "config": {
+            "bitdev.react/react-env@1.1.49": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
             }
         }
     },

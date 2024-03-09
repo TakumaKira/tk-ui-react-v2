@@ -1,0 +1,40 @@
+---
+description: A theme defining the Colors design language and design tokens.
+labels: ['react', 'design', 'theme']
+---
+
+A theme component for using the Colors Design Language and tokens.
+
+## Get started
+
+To use the theme in your app, install the theme and apply it on your component tree.
+Themes are usually applied on the root of your component tree.
+
+```tsx
+export function MyApp() {
+  return (
+    <Colors>
+      <Homepage />
+    </Colors>
+  );
+}
+```
+
+## Compose the theme
+
+You can compose your theme to create specific variations such as Dark or Light themes, overriding some or all of its properties. 
+To compose your theme, create a new component and use the theme as following:
+
+```tsx
+const myTokenOverrides: WallyThemeSchema = {
+  backgroundColor: 'black'
+};
+
+export function MyApp() {
+  return (
+    <Colors overrides={myTokenOverrides}>
+      <Homepage />
+    </Colors>
+  );
+}
+```
