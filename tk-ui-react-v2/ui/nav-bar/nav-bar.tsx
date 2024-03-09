@@ -1,3 +1,4 @@
+/// <reference path="../../../node_modules/vite/client.d.ts" />
 import classNames from 'classnames';
 import styles from './nav-bar.module.scss';
 
