@@ -2,6 +2,8 @@ import { NavBar } from './nav-bar.js';
 
 export const BasicNavBar = () => {
   return (
-    <NavBar>hello world!</NavBar>
+    <div style={{ width: 500 }}>
+      <NavBar>hello world!</NavBar>
+    </div>
   );
 }
