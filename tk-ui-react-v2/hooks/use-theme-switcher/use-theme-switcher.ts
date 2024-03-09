@@ -1,14 +1,29 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+export enum Theme {
+  LIGHT = 'light',
+  DARK = 'dark',
+}
 
 /**
  * A useThemeSwitcher React hook.
  */
 export function useThemeSwitcher() {
-  const [count, setCount] = useState(0)
-  const increment = () => setCount((c) => c + 1)
+  const colorScheme = matchMedia('(prefers-color-scheme: dark)')
+  const [theme, setTheme] = useState(colorScheme.matches ? Theme.DARK : Theme.LIGHT)
 
-  return { 
-    count, 
-    increment
-  };
+  const onChangeColorScheme = ({ matches }) => {
+    if (matches) {
+      setTheme(Theme.DARK)
+    } else {
+      setTheme(Theme.LIGHT)
+    }
+  }
+
+  useEffect(() => {
+    colorScheme.addEventListener('change', onChangeColorScheme)
+    return () => colorScheme.removeEventListener('change', onChangeColorScheme)
+  })
+
+  return theme
 }

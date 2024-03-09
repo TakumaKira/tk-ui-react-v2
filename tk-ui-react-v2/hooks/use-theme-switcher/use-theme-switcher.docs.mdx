@@ -10,8 +10,15 @@ A react hook for incrementing the state of count by 1 each time increment() is i
 Install and use the hook in your components:
 
 ```tsx
+import { Colors, colorsTokensDark } from '@takumakira-individual/tk-ui-react-v1.themes.colors';
+import { useThemeSwitcher, Theme } from '@takumakira-individual/tk-ui-react-v1.hooks.use-theme-switcher';
+
 export function MyComponent() {
-  const response = useCounter();
-  return <div onClick={response.increment}>The count is {response.count}</div>;
+  const theme = useThemeSwitcher();
+  return (
+    <Colors overrides={theme === Theme.DARK ? colorsTokensDark : undefined}>
+      The count is {response.count}
+    </Colors>
+  );
 }
 ```
