@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 import classNames from 'classnames';
 import { ColorsProvider } from './colors-provider.js';
-import styles from './colors.module.scss';
+import styles from './colors.module.css';
 import { ColorsSchema } from './colors-tokens.js';
 
 export type ColorsProps = {
