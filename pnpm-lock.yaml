@@ -104,6 +104,9 @@ importers:
       browserslist:
         specifier: 4.21.4
         version: 4.21.4
+      chart.js:
+        specifier: ^4.4.2
+        version: 4.4.2
       classnames:
         specifier: ^2.3.2
         version: 2.5.1
@@ -176,6 +179,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -191,6 +197,12 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -247,6 +259,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
@@ -256,6 +270,10 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         injected: true
 
   node_modules/.bit_roots/bitdev.react_react-env@1.1.42:
@@ -278,6 +296,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -293,6 +314,12 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -367,6 +394,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
@@ -376,6 +405,10 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         injected: true
 
   node_modules/.bit_roots/bitdev.react_react-env@1.1.49:
@@ -398,6 +431,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -413,6 +449,12 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -496,6 +538,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
@@ -505,6 +549,10 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         injected: true
 
   node_modules/.bit_roots/takumakira-individual.tk-ui-react-v2_tk-ui-react-v2:
@@ -521,6 +569,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -536,6 +587,12 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -596,6 +653,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
@@ -605,6 +664,10 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         injected: true
 
   node_modules/.bit_roots/takumakira-individual.tk-ui-react-v2_tk-ui-react-v2-service:
@@ -627,6 +690,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -642,6 +708,12 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -702,6 +774,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
@@ -712,24 +786,16 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        injected: true
 
   node_modules/.bit_roots/takumakira-individual.tk-ui-react-v2_tk-ui-react-v2-web:
     dependencies:
-      '@acme/design.acme-theme':
-        specifier: ^2.0.4
-        version: 2.0.4(@testing-library/react@14.2.1)(react-dom@18.2.0)(react@18.2.0)
       '@apollo/client':
         specifier: ^3.8.8
         version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
-      '@bitdesign/sparks.content.logo':
-        specifier: ^0.0.4
-        version: 0.0.4(@testing-library/react@14.2.1)(@types/react@18.2.23)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
-      '@bitdesign/sparks.layout.header':
-        specifier: ^0.0.5
-        version: 0.0.5(react-router-dom@6.22.3)(react@18.2.0)
-      '@bitdesign/sparks.navigation.link':
-        specifier: ^0.0.2
-        version: 0.0.2(@testing-library/react@14.2.1)(@types/react@18.2.23)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@bitdev/react.app-types.vite-react':
         specifier: ^1.1.25
         version: 1.1.26(@types/node@20.11.25)(sass@1.71.1)
@@ -745,6 +811,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -760,6 +829,12 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -793,6 +868,9 @@ importers:
       browserslist:
         specifier: 4.21.4
         version: 4.21.4
+      classnames:
+        specifier: ^2.3.2
+        version: 2.5.1
       eslint:
         specifier: 8.56.0
         version: 8.56.0
@@ -856,6 +934,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
@@ -865,6 +945,10 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         injected: true
 
   tk-ui-react-v2/entities/announcement:
@@ -933,6 +1017,100 @@ importers:
       '@acme/acme.testing.mock-provider':
         specifier: ^1.0.6
         version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.21
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist:
+        specifier: 4.21.4
+        version: 4.21.4
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^23.0.1
+        version: 23.2.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass:
+        specifier: ^1.69.5
+        version: 1.71.1
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.90.3
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^1.1.49
+        version: 1.1.49(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@20.11.25)
+
+  tk-ui-react-v2/hooks/use-theme-switcher:
+    dependencies:
       '@apollo/client':
         specifier: ^3.8.8
         version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1261,21 +1439,9 @@ importers:
 
   tk-ui-react-v2/tk-ui-react-v2-web:
     dependencies:
-      '@acme/design.acme-theme':
-        specifier: ^2.0.4
-        version: 2.0.4(@testing-library/react@14.2.1)(react-dom@18.2.0)(react@18.2.0)
       '@apollo/client':
         specifier: ^3.8.8
         version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
-      '@bitdesign/sparks.content.logo':
-        specifier: ^0.0.4
-        version: 0.0.4(@testing-library/react@14.2.1)(@types/react@18.2.23)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
-      '@bitdesign/sparks.layout.header':
-        specifier: ^0.0.5
-        version: 0.0.5(react-router-dom@6.22.3)(react@18.2.0)
-      '@bitdesign/sparks.navigation.link':
-        specifier: ^0.0.2
-        version: 0.0.2(@testing-library/react@14.2.1)(@types/react@18.2.23)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@bitdev/react.app-types.vite-react':
         specifier: ^1.1.25
         version: 1.1.26(@types/node@20.11.25)(sass@1.71.1)
@@ -1318,6 +1484,9 @@ importers:
       browserslist:
         specifier: 4.21.4
         version: 4.21.4
+      classnames:
+        specifier: ^2.3.2
+        version: 2.5.1
       eslint:
         specifier: 8.56.0
         version: 8.56.0
@@ -1485,6 +1654,197 @@ importers:
       '@types/testing-library__jest-dom':
         specifier: ^5.9.5
         version: 5.14.9
+
+  tk-ui-react-v2/ui/line-chart:
+    dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.21
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist:
+        specifier: 4.21.4
+        version: 4.21.4
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^23.0.1
+        version: 23.2.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass:
+        specifier: ^1.69.5
+        version: 1.71.1
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.90.3
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^1.1.49
+        version: 1.1.49(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@20.11.25)
+
+  tk-ui-react-v2/ui/nav-bar:
+    dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.21
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist:
+        specifier: 4.21.4
+        version: 4.21.4
+      classnames:
+        specifier: ^2.3.2
+        version: 2.5.1
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^23.0.1
+        version: 23.2.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass:
+        specifier: ^1.69.5
+        version: 1.71.1
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.90.3
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^1.1.49
+        version: 1.1.49(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@20.11.25)
 
 packages:
 
@@ -2076,23 +2436,6 @@ packages:
         optional: true
     dependencies:
       '@babel/core': 7.20.2
-      '@babel/helper-compilation-targets': 7.23.6
-      '@babel/helper-plugin-utils': 7.24.0
-      debug: 4.3.4
-      lodash.debounce: 4.0.8
-      resolve: 1.22.8
-    transitivePeerDependencies:
-      - supports-color
-
-  /@babel/helper-define-polyfill-provider@0.4.4(@babel/core@7.24.0):
-    resolution: {integrity: sha512-QcJMILQCu2jm5TFPGA3lCpJJTeEP+mqeXooG/NZbg/h5FTFi6V0+99ahlRsW8/kRLyb24LZVCCiclDedhLKcBA==}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.24.0
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-plugin-utils': 7.24.0
       debug: 4.3.4
@@ -4787,7 +5130,7 @@ packages:
       '@babel/preset-modules': 0.1.6-no-external-plugins(@babel/core@7.20.2)
       '@babel/types': 7.24.0
       babel-plugin-polyfill-corejs2: 0.4.9(@babel/core@7.20.2)
-      babel-plugin-polyfill-corejs3: 0.8.7(@babel/core@7.24.0)
+      babel-plugin-polyfill-corejs3: 0.8.7(@babel/core@7.20.2)
       babel-plugin-polyfill-regenerator: 0.5.5(@babel/core@7.20.2)
       core-js-compat: 3.36.0
       semver: 6.3.1
@@ -4882,99 +5225,6 @@ packages:
       babel-plugin-polyfill-corejs2: 0.4.9(@babel/core@7.20.2)
       babel-plugin-polyfill-corejs3: 0.8.7(@babel/core@7.20.2)
       babel-plugin-polyfill-regenerator: 0.5.5(@babel/core@7.20.2)
-      core-js-compat: 3.36.0
-      semver: 6.3.1
-    transitivePeerDependencies:
-      - supports-color
-
-  /@babel/preset-env@7.22.15(@babel/core@7.24.0):
-    resolution: {integrity: sha512-tZFHr54GBkHk6hQuVA8w4Fmq+MSPsfvMG0vPnOYyTnJpyfMqybL8/MbNCPRT9zc2KBO2pe4tq15g6Uno4Jpoag==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/compat-data': 7.23.5
-      '@babel/core': 7.24.0
-      '@babel/helper-compilation-targets': 7.23.6
-      '@babel/helper-plugin-utils': 7.24.0
-      '@babel/helper-validator-option': 7.23.5
-      '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-proposal-private-property-in-object': 7.21.0-placeholder-for-preset-env.2(@babel/core@7.24.0)
-      '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.24.0)
-      '@babel/plugin-syntax-class-properties': 7.12.13(@babel/core@7.24.0)
-      '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.24.0)
-      '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-export-namespace-from': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-import-assertions': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-import-attributes': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.24.0)
-      '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.24.0)
-      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.24.0)
-      '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.24.0)
-      '@babel/plugin-syntax-top-level-await': 7.14.5(@babel/core@7.24.0)
-      '@babel/plugin-syntax-unicode-sets-regex': 7.18.6(@babel/core@7.24.0)
-      '@babel/plugin-transform-arrow-functions': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-async-generator-functions': 7.23.9(@babel/core@7.24.0)
-      '@babel/plugin-transform-async-to-generator': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-block-scoped-functions': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-block-scoping': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-class-properties': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-class-static-block': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-classes': 7.23.8(@babel/core@7.24.0)
-      '@babel/plugin-transform-computed-properties': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-destructuring': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-dotall-regex': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-duplicate-keys': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-dynamic-import': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-exponentiation-operator': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-export-namespace-from': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-for-of': 7.23.6(@babel/core@7.24.0)
-      '@babel/plugin-transform-function-name': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-json-strings': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-literals': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-logical-assignment-operators': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-member-expression-literals': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-modules-amd': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-modules-commonjs': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-modules-systemjs': 7.23.9(@babel/core@7.24.0)
-      '@babel/plugin-transform-modules-umd': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-named-capturing-groups-regex': 7.22.5(@babel/core@7.24.0)
-      '@babel/plugin-transform-new-target': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-nullish-coalescing-operator': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-numeric-separator': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-object-rest-spread': 7.24.0(@babel/core@7.24.0)
-      '@babel/plugin-transform-object-super': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-optional-catch-binding': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-optional-chaining': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-parameters': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-private-methods': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-private-property-in-object': 7.23.4(@babel/core@7.24.0)
-      '@babel/plugin-transform-property-literals': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-regenerator': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-reserved-words': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-shorthand-properties': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-spread': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-sticky-regex': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-template-literals': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-typeof-symbol': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-unicode-escapes': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-unicode-property-regex': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-unicode-regex': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-unicode-sets-regex': 7.23.3(@babel/core@7.24.0)
-      '@babel/preset-modules': 0.1.6-no-external-plugins(@babel/core@7.24.0)
-      '@babel/types': 7.24.0
-      babel-plugin-polyfill-corejs2: 0.4.9(@babel/core@7.24.0)
-      babel-plugin-polyfill-corejs3: 0.8.7(@babel/core@7.24.0)
-      babel-plugin-polyfill-regenerator: 0.5.5(@babel/core@7.24.0)
       core-js-compat: 3.36.0
       semver: 6.3.1
     transitivePeerDependencies:
@@ -5240,22 +5490,6 @@ packages:
       '@babel/plugin-transform-modules-commonjs': 7.23.3(@babel/core@7.20.2)
       '@babel/plugin-transform-typescript': 7.23.6(@babel/core@7.20.2)
 
-  /@babel/preset-typescript@7.22.15(@babel/core@7.24.0):
-    resolution: {integrity: sha512-HblhNmh6yM+cU4VwbBRpxFhxsTdfS1zsvH9W+gEjD0ARV9+8B4sNfpI6GuhePti84nuvhiwKS539jKPFHskA9A==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.24.0
-      '@babel/helper-plugin-utils': 7.24.0
-      '@babel/helper-validator-option': 7.23.5
-      '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-modules-commonjs': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-transform-typescript': 7.23.6(@babel/core@7.24.0)
-
   /@babel/preset-typescript@7.23.3(@babel/core@7.24.0):
     resolution: {integrity: sha512-17oIGVlqz6CchO9RFYn5U6ZpWRZIngayYCtrPRSgANSwC2V1Jb+iP74nVxzzXJte8b8BYxrL1yY96xfhTBrNNQ==}
     engines: {node: '>=6.9.0'}
@@ -5498,7 +5732,7 @@ packages:
       '@teambit/defender.prettier-formatter': 1.0.8(@teambit/legacy@node_modules+@teambit+legacy)
       '@teambit/dependencies.modules.packages-excluder': 1.0.8(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
-      '@teambit/preview.react-preview': 1.0.23(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(eslint@8.56.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@teambit/preview.react-preview': 1.0.23(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(eslint@8.56.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)
       '@teambit/react.mounter': 1.0.3
       '@teambit/toolbox.performance.v8-cache': 0.0.31
       '@teambit/typescript.typescript-compiler': 2.0.16(@teambit/legacy@node_modules+@teambit+legacy)
@@ -6642,6 +6876,10 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
+  /@kurkle/color@0.3.2:
+    resolution: {integrity: sha512-fuscdXJ9G1qb7W8VdHi+IwRqij3lBkosAm4ydQtEmbY58OzHXqQhvlxqEkoz0yssNVn38bcpRWgA9PP+OGoisw==}
+    dev: false
+
   /@leichtgewicht/ip-codec@2.0.4:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
 
@@ -7177,22 +7415,6 @@ packages:
       deepmerge: 4.3.1
       svgo: 3.2.0
     transitivePeerDependencies:
-      - typescript
-
-  /@svgr/webpack@8.1.0:
-    resolution: {integrity: sha512-LnhVjMWyMQV9ZmeEy26maJk+8HTIbd59cH4F2MJ439k9DqejRisfFNGAPvRYlKETuh9LrImlS8aKsBgKjMA8WA==}
-    engines: {node: '>=14'}
-    dependencies:
-      '@babel/core': 7.24.0
-      '@babel/plugin-transform-react-constant-elements': 7.23.3(@babel/core@7.24.0)
-      '@babel/preset-env': 7.22.15(@babel/core@7.24.0)
-      '@babel/preset-react': 7.22.15(@babel/core@7.24.0)
-      '@babel/preset-typescript': 7.22.15(@babel/core@7.24.0)
-      '@svgr/core': 8.1.0(typescript@5.4.2)
-      '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0)
-      '@svgr/plugin-svgo': 8.1.0(@svgr/core@8.1.0)(typescript@5.4.2)
-    transitivePeerDependencies:
-      - supports-color
       - typescript
 
   /@svgr/webpack@8.1.0(typescript@5.4.2):
@@ -9109,57 +9331,6 @@ packages:
   /@teambit/node.deps-detectors.parser-helper@0.0.0-1ca3300f0fe89cba790beb930903095053a2a24a:
     resolution: {integrity: sha512-vJrbAt/ci/vPU42f7HsNzYaeub0Okp99oJtAXiA58MwxmeG8oroqP4Z4kxVmAAbbpbI8d3Z4Q6rGBvpfh459CQ==}
 
-  /@teambit/preview.react-preview@1.0.23(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(eslint@8.56.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ocnC2ZHhzZT3+mFeZm5zH+kwVklZI0npmAgM3brqPM51NcOWGLT2hGUhpH1hclV2d+0qoariWDwKWR9oPemIcA==}
-    peerDependencies:
-      react: '*'
-    peerDependenciesMeta:
-      react:
-        optional: true
-    dependencies:
-      '@teambit/docs.docs-template': 1.0.4(@testing-library/react@14.2.1)(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)
-      '@teambit/react.mounter': 1.0.3
-      '@teambit/react.webpack.react-webpack': 1.0.23(@teambit/legacy@node_modules+@teambit+legacy)(eslint@8.56.0)(react@18.2.0)(webpack-dev-server@4.15.0)
-      '@teambit/webpack.webpack-bundler': 1.0.7
-      '@teambit/webpack.webpack-dev-server': 1.0.7(@teambit/legacy@node_modules+@teambit+legacy)(eslint@8.56.0)(typescript@5.4.2)(webpack@5.90.3)
-      object-hash: 3.0.0
-      react: 18.2.0
-      webpack: 5.90.3
-      webpack-dev-server: 4.15.0(webpack@5.90.3)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@parcel/css'
-      - '@swc/core'
-      - '@swc/css'
-      - '@teambit/legacy'
-      - '@testing-library/react'
-      - '@types/react'
-      - '@types/webpack'
-      - bufferutil
-      - clean-css
-      - csso
-      - debug
-      - encoding
-      - esbuild
-      - eslint
-      - fibers
-      - graphql
-      - less
-      - lightningcss
-      - node-sass
-      - react-dom
-      - sass-embedded
-      - sockjs-client
-      - supports-color
-      - type-fest
-      - typescript
-      - uglify-js
-      - utf-8-validate
-      - vue-template-compiler
-      - webpack-cli
-      - webpack-hot-middleware
-      - webpack-plugin-serve
-
   /@teambit/preview.react-preview@1.0.23(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(eslint@8.56.0)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2):
     resolution: {integrity: sha512-ocnC2ZHhzZT3+mFeZm5zH+kwVklZI0npmAgM3brqPM51NcOWGLT2hGUhpH1hclV2d+0qoariWDwKWR9oPemIcA==}
     peerDependencies:
@@ -9578,75 +9749,6 @@ packages:
       '@bitdev/react.webpack.refresh-overlay': 0.0.1
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.0)(webpack-dev-server@4.15.0)(webpack@5.90.3)
       '@svgr/webpack': 8.1.0(typescript@5.4.2)
-      '@teambit/component-id': 1.0.0
-      '@teambit/mdx.modules.mdx-loader': 1.0.14(esbuild@0.14.29)
-      '@teambit/react.babel.bit-react-transformer': 1.0.2(react-dom@18.2.0)(react@18.2.0)
-      '@teambit/webpack.modules.generate-style-loaders': 1.0.0
-      '@teambit/webpack.modules.style-regexps': 1.0.4
-      '@teambit/webpack.webpack-dev-server': 1.0.7(@teambit/legacy@node_modules+@teambit+legacy)(esbuild@0.14.29)(eslint@8.56.0)(typescript@5.4.2)(webpack@5.90.3)
-      babel-loader: 9.1.0(webpack@5.90.3)
-      babel-preset-react-app: 10.0.1
-      browserslist: 4.21.4
-      css-loader: 6.7.2(webpack@5.90.3)
-      css-minimizer-webpack-plugin: 5.0.1(esbuild@0.14.29)(webpack@5.90.3)
-      esbuild: 0.14.29
-      less-loader: 11.1.0(webpack@5.90.3)
-      lodash: 4.17.21
-      mini-css-extract-plugin: 2.8.1(webpack@5.90.3)
-      new-url-loader: 0.1.1(webpack@5.90.3)
-      postcss: 8.4.19
-      postcss-flexbugs-fixes: 5.0.2(postcss@8.4.19)
-      postcss-loader: 7.0.1(postcss@8.4.19)(webpack@5.90.3)
-      postcss-normalize: 10.0.1(browserslist@4.21.4)(postcss@8.4.19)
-      postcss-preset-env: 7.8.3(postcss@8.4.19)
-      react-dev-utils: 12.0.1(eslint@8.56.0)(typescript@5.4.2)(webpack@5.90.3)
-      react-dom: 18.2.0(react@18.2.0)
-      react-refresh: 0.14.0
-      resolve-url-loader: 5.0.0
-      sass: 1.63.6
-      sass-loader: 13.3.2(sass@1.63.6)(webpack@5.90.3)
-      source-map-loader: 4.0.1(webpack@5.90.3)
-      style-loader: 3.3.1(webpack@5.90.3)
-      terser-webpack-plugin: 5.2.0(esbuild@0.14.29)(webpack@5.90.3)
-      webpack: 5.90.3(esbuild@0.14.29)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - '@parcel/css'
-      - '@swc/core'
-      - '@swc/css'
-      - '@teambit/legacy'
-      - '@types/webpack'
-      - bufferutil
-      - clean-css
-      - csso
-      - debug
-      - eslint
-      - fibers
-      - less
-      - lightningcss
-      - node-sass
-      - react
-      - sass-embedded
-      - sockjs-client
-      - supports-color
-      - type-fest
-      - typescript
-      - uglify-js
-      - utf-8-validate
-      - vue-template-compiler
-      - webpack-cli
-      - webpack-dev-server
-      - webpack-hot-middleware
-      - webpack-plugin-serve
-
-  /@teambit/react.webpack.react-webpack@1.0.23(@teambit/legacy@node_modules+@teambit+legacy)(eslint@8.56.0)(react@18.2.0)(webpack-dev-server@4.15.0):
-    resolution: {integrity: sha512-mGlldzbz+/DanhvrZCJi6JUUXxQplzC796HXoWYVcIgdy6ME6Ol/TfMQR5Ubr7FFNwxevPfZWJ9ObbYAwdESVA==}
-    dependencies:
-      '@babel/preset-env': 7.22.15
-      '@babel/preset-react': 7.22.15
-      '@bitdev/react.webpack.refresh-overlay': 0.0.1
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.0)(webpack-dev-server@4.15.0)(webpack@5.90.3)
-      '@svgr/webpack': 8.1.0
       '@teambit/component-id': 1.0.0
       '@teambit/mdx.modules.mdx-loader': 1.0.14(esbuild@0.14.29)
       '@teambit/react.babel.bit-react-transformer': 1.0.2(react-dom@18.2.0)(react@18.2.0)
@@ -11383,20 +11485,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /babel-plugin-polyfill-corejs3@0.8.7(@babel/core@7.24.0):
-    resolution: {integrity: sha512-KyDvZYxAzkC0Aj2dAPyDzi2Ym15e5JKZSK+maI7NAwSqofvuFglbSsxE7wUOvTg9oFVnHMzVzBKcqEb4PJgtOA==}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/core': 7.24.0
-      '@babel/helper-define-polyfill-provider': 0.4.4(@babel/core@7.24.0)
-      core-js-compat: 3.36.0
-    transitivePeerDependencies:
-      - supports-color
-
   /babel-plugin-polyfill-corejs3@0.9.0:
     resolution: {integrity: sha512-7nZPG1uzK2Ymhy/NbaOWTg3uibM2BmGASS4vHS4szRZAIR8R6GwA/xAujpdrXU5iyklrimWnLWU+BLF9suPTqg==}
     peerDependencies:
@@ -11868,6 +11956,13 @@ packages:
 
   /character-reference-invalid@2.0.1:
     resolution: {integrity: sha512-iBZ4F4wRbyORVsu0jPV7gXkOsGYjGHPmAyv+HiHG8gi5PtC9KI2j1+v8/tlibRvjoWX027ypmG/n0HtO5t7unw==}
+
+  /chart.js@4.4.2:
+    resolution: {integrity: sha512-6GD7iKwFpP5kbSD4MeRRRlTnQvxfQREy36uEtm1hzHzcOqwWx0YEHuspuoNlslu+nciLIB7fjjsHkUv/FzFcOg==}
+    engines: {pnpm: '>=8'}
+    dependencies:
+      '@kurkle/color': 0.3.2
+    dev: false
 
   /check-error@1.0.3:
     resolution: {integrity: sha512-iKEoDYaRmd1mxM90a2OEfWhjsjPpYPuQ+lMYsoxB126+t8fw7ySEO48nmDg5COTjxDI65/Y2OWpeEHk3ZOe8zg==}
@@ -21033,6 +21128,70 @@ packages:
       - webpack-cli
     dev: false
 
+  file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1):
+    resolution: {directory: tk-ui-react-v2/hooks/use-theme-switcher, type: directory}
+    id: file:tk-ui-react-v2/hooks/use-theme-switcher
+    name: '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher'
+    peerDependencies:
+      '@testing-library/react': '*'
+      react: '*'
+      vitest: '*'
+    peerDependenciesMeta:
+      '@testing-library/react':
+        optional: true
+      react:
+        optional: true
+      vitest:
+        optional: true
+    dependencies:
+      '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.2.21
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist: 4.21.4
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 23.2.0
+      pino-pretty: 4.5.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-router-dom: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass: 1.71.1
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack: 5.90.3
+    transitivePeerDependencies:
+      - '@jest/globals'
+      - '@swc/core'
+      - '@types/bun'
+      - bufferutil
+      - canvas
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - jest
+      - subscriptions-transport-ws
+      - supports-color
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+    dev: false
+
   file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
     resolution: {directory: tk-ui-react-v2/themes/colors, type: directory}
     id: file:tk-ui-react-v2/themes/colors
@@ -21249,7 +21408,11 @@ packages:
       '@bitdev/react.app-types.vite-react': 1.1.26(@types/node@20.11.25)(sass@1.71.1)
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher': file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+      '@takumakira-individual/tk-ui-react-v2.themes.colors': file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements': file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart': file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar': file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
       '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -21261,6 +21424,7 @@ packages:
       '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
       '@vitejs/plugin-react': 4.2.1(vite@5.1.5)
       browserslist: 4.21.4
+      classnames: 2.5.1
       eslint: 8.56.0
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
       eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
@@ -21354,6 +21518,149 @@ packages:
       - '@jest/globals'
       - '@swc/core'
       - '@testing-library/react'
+      - '@types/bun'
+      - '@types/node'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - bufferutil
+      - canvas
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - happy-dom
+      - jest
+      - less
+      - lightningcss
+      - stylus
+      - subscriptions-transport-ws
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+    dev: false
+
+  file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+    resolution: {directory: tk-ui-react-v2/ui/line-chart, type: directory}
+    id: file:tk-ui-react-v2/ui/line-chart
+    name: '@takumakira-individual/tk-ui-react-v2.ui.line-chart'
+    peerDependencies:
+      '@testing-library/react': '*'
+      react: '*'
+    peerDependenciesMeta:
+      '@testing-library/react':
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.2.21
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist: 4.21.4
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 23.2.0
+      pino-pretty: 4.5.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-router-dom: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass: 1.71.1
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack: 5.90.3
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@jest/globals'
+      - '@swc/core'
+      - '@types/bun'
+      - '@types/node'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - bufferutil
+      - canvas
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - happy-dom
+      - jest
+      - less
+      - lightningcss
+      - stylus
+      - subscriptions-transport-ws
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+    dev: false
+
+  file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+    resolution: {directory: tk-ui-react-v2/ui/nav-bar, type: directory}
+    id: file:tk-ui-react-v2/ui/nav-bar
+    name: '@takumakira-individual/tk-ui-react-v2.ui.nav-bar'
+    peerDependencies:
+      '@testing-library/react': '*'
+      react: '*'
+    peerDependenciesMeta:
+      '@testing-library/react':
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.2.21
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist: 4.21.4
+      classnames: 2.5.1
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 23.2.0
+      pino-pretty: 4.5.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-router-dom: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass: 1.71.1
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack: 5.90.3
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@jest/globals'
+      - '@swc/core'
       - '@types/bun'
       - '@types/node'
       - '@vitest/browser'

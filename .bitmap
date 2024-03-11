@@ -65,6 +65,20 @@
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/ui/announcements"
     },
+    "ui/line-chart": {
+        "name": "ui/line-chart",
+        "scope": "",
+        "version": "",
+        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/ui/line-chart",
+        "config": {
+            "bitdev.react/react-env@1.1.49": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
+    },
     "ui/nav-bar": {
         "name": "ui/nav-bar",
         "scope": "takumakira-individual.tk-ui-react-v2",
