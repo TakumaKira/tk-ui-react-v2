@@ -9,8 +9,19 @@ export enum Theme {
  * A useThemeSwitcher React hook.
  */
 export function useThemeSwitcher() {
-  const colorScheme = matchMedia('(prefers-color-scheme: dark)')
-  const [theme, setTheme] = useState(colorScheme.matches ? Theme.DARK : Theme.LIGHT)
+  const [colorScheme, setColorScheme] = useState<MediaQueryList>()
+  const setColorSchemeWhenAvailable = () => {
+    setColorScheme(window.matchMedia('(prefers-color-scheme: dark)'))
+  }
+  useEffect(setColorSchemeWhenAvailable, [])
+
+  const [theme, setTheme] = useState<Theme>()
+  const getInitialTheme = () => {
+    if (theme) return
+    if (!colorScheme) return
+    setTheme(colorScheme.matches ? Theme.DARK : Theme.LIGHT)
+  }
+  useEffect(getInitialTheme, [colorScheme])
 
   const onChangeColorScheme = ({ matches }) => {
     if (matches) {
@@ -19,11 +30,12 @@ export function useThemeSwitcher() {
       setTheme(Theme.LIGHT)
     }
   }
-
   useEffect(() => {
+    if (!colorScheme) return
+    colorScheme.removeEventListener('change', onChangeColorScheme)
     colorScheme.addEventListener('change', onChangeColorScheme)
     return () => colorScheme.removeEventListener('change', onChangeColorScheme)
-  })
+  }, [colorScheme])
 
   return theme
 }
