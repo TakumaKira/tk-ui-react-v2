@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { Chart, ChartConfiguration } from 'chart.js/auto';
 
 export type LineChartProps = {
@@ -10,17 +10,16 @@ export type LineChartProps = {
 
 export function LineChart({ data }: LineChartProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const [chart, setChart] = useState<Chart>()
+  const chartRef = useRef<Chart>()
   useEffect(() => {
     if (!canvasRef.current) return
-    if (chart) {
-      chart.destroy()
+    if (chartRef.current) {
+      chartRef.current.destroy()
     }
-    const chartLocal = new Chart(canvasRef.current, {
+    chartRef.current = new Chart(canvasRef.current, {
       type: 'line',
       data
     })
-    setChart(chartLocal)
   }, [data])
   return (
     <canvas ref={canvasRef} />
