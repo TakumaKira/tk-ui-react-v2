@@ -26,16 +26,10 @@
     "hooks/use-api": {
         "name": "hooks/use-api",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "takumakira-individual.tk-ui-react-v2",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/hooks/use-api",
-        "config": {
-            "bitdev.react/react-env@1.1.49": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
+        "rootDir": "tk-ui-react-v2/hooks/use-api"
     },
     "hooks/use-theme-switcher": {
         "name": "hooks/use-theme-switcher",
@@ -54,7 +48,7 @@
     "tk-ui-react-v2": {
         "name": "tk-ui-react-v2",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.13",
+        "version": "0.0.14",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2"
     },
@@ -68,7 +62,7 @@
     "tk-ui-react-v2-web": {
         "name": "tk-ui-react-v2-web",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.13",
+        "version": "0.0.14",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2-web"
     },
@@ -82,16 +76,10 @@
     "ui/line-chart": {
         "name": "ui/line-chart",
         "scope": "",
-        "version": "",
+        "version": "0.0.1",
         "defaultScope": "takumakira-individual.tk-ui-react-v2",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/ui/line-chart",
-        "config": {
-            "bitdev.react/react-env@1.1.49": {},
-            "teambit.envs/envs": {
-                "env": "bitdev.react/react-env"
-            }
-        }
+        "rootDir": "tk-ui-react-v2/ui/line-chart"
     },
     "ui/nav-bar": {
         "name": "ui/nav-bar",
