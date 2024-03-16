@@ -149,6 +149,9 @@ importers:
       react-dom:
         specifier: '>=18.0.0 <19.0.0'
         version: 18.2.0(react@18.2.0)
+      react-query:
+        specifier: ^3.39.3
+        version: 3.39.3(react-dom@18.2.0)(react@18.2.0)
       react-router-dom:
         specifier: ^6.16.0
         version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
@@ -179,6 +182,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -259,6 +265,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
@@ -296,6 +304,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -394,6 +405,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
@@ -431,6 +444,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -538,6 +554,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
@@ -569,6 +587,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -652,6 +673,8 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
@@ -690,6 +713,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -774,6 +800,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
@@ -811,6 +839,9 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -934,6 +965,8 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
@@ -1017,6 +1050,100 @@ importers:
       '@acme/acme.testing.mock-provider':
         specifier: ^1.0.6
         version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.21
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist:
+        specifier: 4.21.4
+        version: 4.21.4
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^23.0.1
+        version: 23.2.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass:
+        specifier: ^1.69.5
+        version: 1.71.1
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.90.3
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^1.1.49
+        version: 1.1.49(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@20.11.25)
+
+  tk-ui-react-v2/hooks/use-api:
+    dependencies:
       '@apollo/client':
         specifier: ^3.8.8
         version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1696,6 +1823,9 @@ importers:
       browserslist:
         specifier: 4.21.4
         version: 4.21.4
+      chart.js:
+        specifier: ^4.4.2
+        version: 4.4.2
       eslint:
         specifier: 8.56.0
         version: 8.56.0
@@ -11677,6 +11807,11 @@ packages:
     dependencies:
       require-from-string: 2.0.2
 
+  /big-integer@1.6.52:
+    resolution: {integrity: sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==}
+    engines: {node: '>=0.6'}
+    dev: false
+
   /big.js@5.2.2:
     resolution: {integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==}
 
@@ -11734,6 +11869,19 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       fill-range: 7.0.1
+
+  /broadcast-channel@3.7.0:
+    resolution: {integrity: sha512-cIAKJXAxGJceNZGTZSBzMxzyOn72cVgPnKx4dc6LRjQgbaJUQqhy5rzL3zbMxkMWsGKkv2hSFkPRMEXfoMZ2Mg==}
+    dependencies:
+      '@babel/runtime': 7.24.0
+      detect-node: 2.1.0
+      js-sha3: 0.8.0
+      microseconds: 0.2.0
+      nano-time: 1.0.0
+      oblivious-set: 1.0.0
+      rimraf: 3.0.2
+      unload: 2.2.0
+    dev: false
 
   /brorand@1.1.0:
     resolution: {integrity: sha512-cKV8tMCEpQs4hK/ik71d6LrPOnpkpGBR0wzxqr68g2m/LB2GxVYQroAjMJZRVM1Y4BCjCKc3vAamxSzOY2RP+w==}
@@ -15772,6 +15920,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
+  /js-sha3@0.8.0:
+    resolution: {integrity: sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==}
+    dev: false
+
   /js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
 
@@ -16204,6 +16356,13 @@ packages:
   /markdown-extensions@2.0.0:
     resolution: {integrity: sha512-o5vL7aDWatOTX8LzaS1WMoaoxIiLRQJuIKKe2wAw6IeULDHaqbiqiggmx+pKvZDb1Sj+pE46Sn1T7lCqfFtg1Q==}
     engines: {node: '>=16'}
+
+  /match-sorter@6.3.4:
+    resolution: {integrity: sha512-jfZW7cWS5y/1xswZo8VBOdudUiSd9nifYRWphc9M5D/ee4w4AoXLgBEdRbgVaxbMuagBPeUC5y2Hi8DO6o9aDg==}
+    dependencies:
+      '@babel/runtime': 7.24.0
+      remove-accents: 0.5.0
+    dev: false
 
   /md5.js@1.3.5:
     resolution: {integrity: sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg==}
@@ -16674,6 +16833,10 @@ packages:
       braces: 3.0.2
       picomatch: 2.3.1
 
+  /microseconds@0.2.0:
+    resolution: {integrity: sha512-n7DHHMjR1avBbSpsTBj6fmMGh2AGrifVV4e+WYc3Q9lO+xnSZ3NyhcBND3vzzatt05LFhoKFRxrIyklmLlUtyA==}
+    dev: false
+
   /miller-rabin@4.0.1:
     resolution: {integrity: sha512-115fLhvZVqWwHPbClyntxEVfVDfl9DLLTuJvq3g2O/Oxi8AiNouAHvDSzHS0viUJc+V5vm3eq91Xwqn9dp4jRA==}
     hasBin: true
@@ -16795,6 +16958,12 @@ packages:
       any-promise: 1.3.0
       object-assign: 4.1.1
       thenify-all: 1.6.0
+
+  /nano-time@1.0.0:
+    resolution: {integrity: sha512-flnngywOoQ0lLQOTRNexn2gGSNuM9bKj9RZAWSzhQ+UJYaAFG9bac4DW9VHjUAzrOaIcajHybCTHe/bkvozQqA==}
+    dependencies:
+      big-integer: 1.6.52
+    dev: false
 
   /nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
@@ -16974,6 +17143,10 @@ packages:
       call-bind: 1.0.7
       define-properties: 1.2.1
       es-abstract: 1.22.5
+
+  /oblivious-set@1.0.0:
+    resolution: {integrity: sha512-z+pI07qxo4c2CulUHCDf9lcqDlMSo72N/4rLUpRXf6fu+q8vjt8y0xS+Tlf8NTJDdTXHbdeO1n3MlbctwEoXZw==}
+    dev: false
 
   /obuf@1.1.2:
     resolution: {integrity: sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==}
@@ -18461,6 +18634,27 @@ packages:
       sucrase: 3.35.0
       use-editable: 2.3.3(react@18.2.0)
 
+  /react-query@3.39.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.24.0
+      broadcast-channel: 3.7.0
+      match-sorter: 6.3.4
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /react-refresh@0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
@@ -18803,6 +18997,10 @@ packages:
       '@types/mdast': 4.0.3
       mdast-util-to-markdown: 2.1.0
       unified: 11.0.4
+
+  /remove-accents@0.5.0:
+    resolution: {integrity: sha512-8g3/Otx1eJaVD12e31UbJj1YzdtVvzH85HV7t+9MJYk/u3XmkOUJ5Ys9wQrf9PCPK8+xn4ymzqYCiZl6QWKn+A==}
+    dev: false
 
   /rename-overwrite@5.0.0:
     resolution: {integrity: sha512-vSxE5Ww7Jnyotvaxi3Dj0vOMoojH8KMkBfs9xYeW/qNfJiLTcC1fmwTjrbGUq3mQSOCxkG0DbdcvwTUrpvBN4w==}
@@ -20208,6 +20406,13 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
+  /unload@2.2.0:
+    resolution: {integrity: sha512-B60uB5TNBLtN6/LsgAf3udH9saB5p7gqJwcFfbOEZ8BcBHnGwCf6G/TGiEqkRAxX7zAFIUtzdrXQSdL3Q/wqNA==}
+    dependencies:
+      '@babel/runtime': 7.24.0
+      detect-node: 2.1.0
+    dev: false
+
   /unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
@@ -21128,6 +21333,77 @@ packages:
       - webpack-cli
     dev: false
 
+  file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+    resolution: {directory: tk-ui-react-v2/hooks/use-api, type: directory}
+    id: file:tk-ui-react-v2/hooks/use-api
+    name: '@takumakira-individual/tk-ui-react-v2.hooks.use-api'
+    peerDependencies:
+      '@testing-library/react': '*'
+      react: '*'
+    peerDependenciesMeta:
+      '@testing-library/react':
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.2.21
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist: 4.21.4
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 23.2.0
+      pino-pretty: 4.5.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-router-dom: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass: 1.71.1
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack: 5.90.3
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@jest/globals'
+      - '@swc/core'
+      - '@types/bun'
+      - '@types/node'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - bufferutil
+      - canvas
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - happy-dom
+      - jest
+      - less
+      - lightningcss
+      - stylus
+      - subscriptions-transport-ws
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+    dev: false
+
   file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1):
     resolution: {directory: tk-ui-react-v2/hooks/use-theme-switcher, type: directory}
     id: file:tk-ui-react-v2/hooks/use-theme-switcher
@@ -21569,6 +21845,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
       '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
       browserslist: 4.21.4
+      chart.js: 4.4.2
       eslint: 8.56.0
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
       eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)

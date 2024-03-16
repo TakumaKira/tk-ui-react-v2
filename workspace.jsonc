@@ -73,6 +73,7 @@
         "@vitejs/plugin-react": "^4.2.1",
         "chart.js": "^4.4.2",
         "classnames": "^2.3.2",
+        "react-query": "^3.39.3",
         "vite": "^5.0.8"
       },
       "peerDependencies": {}

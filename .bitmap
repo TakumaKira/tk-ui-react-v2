@@ -23,6 +23,20 @@
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/hooks/use-announcements"
     },
+    "hooks/use-api": {
+        "name": "hooks/use-api",
+        "scope": "",
+        "version": "",
+        "defaultScope": "takumakira-individual.tk-ui-react-v2",
+        "mainFile": "index.ts",
+        "rootDir": "tk-ui-react-v2/hooks/use-api",
+        "config": {
+            "bitdev.react/react-env@1.1.49": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
+    },
     "hooks/use-theme-switcher": {
         "name": "hooks/use-theme-switcher",
         "scope": "takumakira-individual.tk-ui-react-v2",
