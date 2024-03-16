@@ -26,7 +26,7 @@
     "hooks/use-api": {
         "name": "hooks/use-api",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/hooks/use-api"
     },
@@ -47,7 +47,7 @@
     "tk-ui-react-v2": {
         "name": "tk-ui-react-v2",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.14",
+        "version": "0.0.15",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2"
     },
@@ -61,7 +61,7 @@
     "tk-ui-react-v2-web": {
         "name": "tk-ui-react-v2-web",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.14",
+        "version": "0.0.15",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2-web"
     },
@@ -75,7 +75,7 @@
     "ui/line-chart": {
         "name": "ui/line-chart",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/ui/line-chart"
     },
