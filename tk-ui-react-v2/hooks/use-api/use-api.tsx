@@ -14,6 +14,6 @@ export function ApiQueryClientProvider({ children }: { children: React.ReactNode
  * A useApi React hook.
  */
 export function useApi<Data>(queryKey: string | unknown[], queryFn: () => Promise<Data>) {
-  const { isLoading, error, data } = useQuery(queryKey, queryFn)
+  const { isLoading, error, data } = useQuery<Data, Error, Data, string | unknown[]>(queryKey, queryFn)
   return { isLoading, error, data };
 }
