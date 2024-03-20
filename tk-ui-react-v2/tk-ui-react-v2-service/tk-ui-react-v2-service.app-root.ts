@@ -27,7 +27,7 @@ export async function run() {
   });
 
   // eslint-disable-next-line no-console
-  console.log(`🚀  Server ready at: ${url}`);
+  console.log(`🚀  GraphQL Server ready at: ${url}`);
 
   return {
     port,

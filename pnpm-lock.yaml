@@ -110,6 +110,9 @@ importers:
       classnames:
         specifier: ^2.3.2
         version: 2.5.1
+      cors:
+        specifier: ^2.8.5
+        version: 2.8.5
       eslint:
         specifier: 8.56.0
         version: 8.56.0
@@ -131,6 +134,9 @@ importers:
       eslint-plugin-react-hooks:
         specifier: 4.6.0
         version: 4.6.0(eslint@8.56.0)
+      express:
+        specifier: ^4.18.3
+        version: 4.18.3
       graphql:
         specifier: ^16.8.1
         version: 16.8.1
@@ -179,12 +185,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         specifier: workspace:*
         version: file:tk-ui-react-v2/entities/announcement(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -197,12 +209,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -263,9 +281,13 @@ importers:
     dependenciesMeta:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
@@ -275,9 +297,13 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         injected: true
@@ -301,12 +327,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         specifier: workspace:*
         version: file:tk-ui-react-v2/entities/announcement(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -319,12 +351,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -403,9 +441,13 @@ importers:
     dependenciesMeta:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
@@ -415,9 +457,13 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         injected: true
@@ -441,12 +487,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         specifier: workspace:*
         version: file:tk-ui-react-v2/entities/announcement(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -459,12 +511,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -552,9 +610,13 @@ importers:
     dependenciesMeta:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
@@ -564,9 +626,13 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         injected: true
@@ -584,12 +650,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         specifier: workspace:*
         version: file:tk-ui-react-v2/entities/announcement(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -602,12 +674,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -672,9 +750,13 @@ importers:
     dependenciesMeta:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
@@ -684,9 +766,13 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         injected: true
@@ -710,12 +796,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         specifier: workspace:*
         version: file:tk-ui-react-v2/entities/announcement(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -728,12 +820,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -798,9 +896,13 @@ importers:
     dependenciesMeta:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
@@ -810,9 +912,156 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        injected: true
+
+  node_modules/.bit_roots/takumakira-individual.tk-ui-react-v2_tk-ui-react-v2-service-express:
+    dependencies:
+      '@bitdev/node.node-server':
+        specifier: ^0.0.12
+        version: 0.0.12
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.entities.announcement':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/announcement(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+      '@takumakira-individual/tk-ui-react-v2.themes.colors':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2(@apollo/client@3.9.6)(@types/react@18.2.23)(jsdom@23.2.0)(react-router-dom@6.22.3)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/node':
+        specifier: ^20.11.23
+        version: 20.11.25
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      express:
+        specifier: ^4.18.3
+        version: 4.18.3
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      graphql-tag:
+        specifier: ^2.12.6
+        version: 2.12.6(graphql@16.8.1)
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+    devDependencies:
+      '@bitdev/node.node-env':
+        specifier: ^1.0.26
+        version: 1.0.26(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+    dependenciesMeta:
+      '@takumakira-individual/tk-ui-react-v2.entities.announcement':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.themes.colors':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         injected: true
@@ -836,12 +1085,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         specifier: workspace:*
         version: file:tk-ui-react-v2/entities/announcement(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
         version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
@@ -854,12 +1109,18 @@ importers:
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         specifier: workspace:*
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
+        specifier: workspace:*
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
         version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -963,9 +1224,13 @@ importers:
     dependenciesMeta:
       '@takumakira-individual/tk-ui-react-v2.entities.announcement':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-announcements':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         injected: true
@@ -975,9 +1240,13 @@ importers:
         injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service':
         injected: true
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express':
+        injected: true
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.announcements':
+        injected: true
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         injected: true
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         injected: true
@@ -985,6 +1254,67 @@ importers:
         injected: true
 
   tk-ui-react-v2/entities/announcement:
+    dependencies:
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/node':
+        specifier: ^20.11.23
+        version: 20.11.25
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      graphql-tag:
+        specifier: ^2.12.6
+        version: 2.12.6(graphql@16.8.1)
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+    devDependencies:
+      '@bitdev/node.node-env':
+        specifier: ^1.0.26
+        version: 1.0.26(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+
+  tk-ui-react-v2/entities/scraped-trend:
     dependencies:
       '@mdx-js/react':
         specifier: 1.6.22
@@ -1144,6 +1474,106 @@ importers:
 
   tk-ui-react-v2/hooks/use-api:
     dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.21
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist:
+        specifier: 4.21.4
+        version: 4.21.4
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^23.0.1
+        version: 23.2.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-query:
+        specifier: ^3.39.3
+        version: 3.39.3(react-dom@18.2.0)(react@18.2.0)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass:
+        specifier: ^1.69.5
+        version: 1.71.1
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.90.3
+    devDependencies:
+      '@bitdev/react.react-env':
+        specifier: ^1.1.49
+        version: 1.1.49(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@20.11.25)
+
+  tk-ui-react-v2/hooks/use-scraped-trend:
+    dependencies:
+      '@acme/acme.testing.mock-provider':
+        specifier: ^1.0.6
+        version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@apollo/client':
         specifier: ^3.8.8
         version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1564,6 +1994,73 @@ importers:
         specifier: ^1.0.26
         version: 1.0.26(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
 
+  tk-ui-react-v2/tk-ui-react-v2-service-express:
+    dependencies:
+      '@bitdev/node.node-server':
+        specifier: ^0.0.12
+        version: 0.0.12
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/node':
+        specifier: ^20.11.23
+        version: 20.11.25
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      express:
+        specifier: ^4.18.3
+        version: 4.18.3
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      graphql-tag:
+        specifier: ^2.12.6
+        version: 2.12.6(graphql@16.8.1)
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+    devDependencies:
+      '@bitdev/node.node-env':
+        specifier: ^1.0.26
+        version: 1.0.26(@teambit/legacy@node_modules+@teambit+legacy)(@testing-library/react@14.2.1)(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+
   tk-ui-react-v2/tk-ui-react-v2-web:
     dependencies:
       '@apollo/client':
@@ -1781,6 +2278,103 @@ importers:
       '@types/testing-library__jest-dom':
         specifier: ^5.9.5
         version: 5.14.9
+
+  tk-ui-react-v2/ui/job-trend-chart:
+    dependencies:
+      '@apollo/client':
+        specifier: ^3.8.8
+        version: 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx':
+        specifier: ^1.6.22
+        version: 1.6.22
+      '@mdx-js/react':
+        specifier: 1.6.22
+        version: 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context':
+        specifier: 1.0.7
+        version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom':
+        specifier: 6.4.2
+        version: 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react':
+        specifier: ^14.2.1
+        version: 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest':
+        specifier: ^29.2.2
+        version: 29.5.12
+      '@types/react':
+        specifier: 18.2.23
+        version: 18.2.23
+      '@types/react-dom':
+        specifier: ^18.2.5
+        version: 18.2.21
+      '@types/testing-library__jest-dom':
+        specifier: ^5.9.5
+        version: 5.14.9
+      '@typescript-eslint/eslint-plugin':
+        specifier: 6.19.1
+        version: 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser':
+        specifier: 6.19.1
+        version: 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist:
+        specifier: 4.21.4
+        version: 4.21.4
+      eslint:
+        specifier: 8.56.0
+        version: 8.56.0
+      eslint-plugin-import:
+        specifier: 2.29.1
+        version: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest:
+        specifier: 27.6.3
+        version: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y:
+        specifier: 6.8.0
+        version: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx:
+        specifier: 3.1.5
+        version: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react:
+        specifier: 7.33.2
+        version: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks:
+        specifier: 4.6.0
+        version: 4.6.0(eslint@8.56.0)
+      graphql:
+        specifier: ^16.8.1
+        version: 16.8.1
+      jsdom:
+        specifier: ^23.0.1
+        version: 23.2.0
+      pino-pretty:
+        specifier: 4.5.0
+        version: 4.5.0
+      react:
+        specifier: ^18.0.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.0.0
+        version: 18.2.0(react@18.2.0)
+      react-router-dom:
+        specifier: ^6.16.0
+        version: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass:
+        specifier: ^1.69.5
+        version: 1.71.1
+      vitest:
+        specifier: 1.2.1
+        version: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack:
+        specifier: ^5.88.2
+        version: 5.90.3
+    devDependencies:
+      '@acme/acme.testing.mock-provider':
+        specifier: ^1.0.6
+        version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
+      '@bitdev/react.react-env':
+        specifier: ^1.1.49
+        version: 1.1.49(@teambit/legacy@node_modules+@teambit+legacy)(@types/node@20.11.25)
 
   tk-ui-react-v2/ui/line-chart:
     dependencies:
@@ -5175,98 +5769,6 @@ packages:
       '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.24.0)
       '@babel/helper-plugin-utils': 7.24.0
 
-  /@babel/preset-env@7.22.15:
-    resolution: {integrity: sha512-tZFHr54GBkHk6hQuVA8w4Fmq+MSPsfvMG0vPnOYyTnJpyfMqybL8/MbNCPRT9zc2KBO2pe4tq15g6Uno4Jpoag==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': '*'
-    peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-    dependencies:
-      '@babel/compat-data': 7.23.5
-      '@babel/helper-compilation-targets': 7.23.6
-      '@babel/helper-plugin-utils': 7.24.0
-      '@babel/helper-validator-option': 7.23.5
-      '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-proposal-private-property-in-object': 7.21.0-placeholder-for-preset-env.2(@babel/core@7.20.2)
-      '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.20.2)
-      '@babel/plugin-syntax-class-properties': 7.12.13(@babel/core@7.20.2)
-      '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.20.2)
-      '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-export-namespace-from': 7.8.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-import-assertions': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-import-attributes': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.20.2)
-      '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.20.2)
-      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.20.2)
-      '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.20.2)
-      '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.20.2)
-      '@babel/plugin-syntax-top-level-await': 7.14.5(@babel/core@7.20.2)
-      '@babel/plugin-syntax-unicode-sets-regex': 7.18.6(@babel/core@7.20.2)
-      '@babel/plugin-transform-arrow-functions': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-async-generator-functions': 7.23.9(@babel/core@7.20.2)
-      '@babel/plugin-transform-async-to-generator': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-block-scoped-functions': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-block-scoping': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-class-properties': 7.22.5(@babel/core@7.20.2)
-      '@babel/plugin-transform-class-static-block': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-classes': 7.23.8(@babel/core@7.20.2)
-      '@babel/plugin-transform-computed-properties': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-destructuring': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-dotall-regex': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-duplicate-keys': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-dynamic-import': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-exponentiation-operator': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-export-namespace-from': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-for-of': 7.23.6(@babel/core@7.20.2)
-      '@babel/plugin-transform-function-name': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-json-strings': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-literals': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-logical-assignment-operators': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-member-expression-literals': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-modules-amd': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-modules-commonjs': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-modules-systemjs': 7.23.9(@babel/core@7.20.2)
-      '@babel/plugin-transform-modules-umd': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-named-capturing-groups-regex': 7.22.5(@babel/core@7.20.2)
-      '@babel/plugin-transform-new-target': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-nullish-coalescing-operator': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-numeric-separator': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-object-rest-spread': 7.22.15(@babel/core@7.20.2)
-      '@babel/plugin-transform-object-super': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-optional-catch-binding': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-optional-chaining': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-parameters': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-private-methods': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-private-property-in-object': 7.23.4(@babel/core@7.20.2)
-      '@babel/plugin-transform-property-literals': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-regenerator': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-reserved-words': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-shorthand-properties': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-spread': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-sticky-regex': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-template-literals': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-typeof-symbol': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-unicode-escapes': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-unicode-property-regex': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-unicode-regex': 7.23.3(@babel/core@7.20.2)
-      '@babel/plugin-transform-unicode-sets-regex': 7.23.3(@babel/core@7.20.2)
-      '@babel/preset-modules': 0.1.6-no-external-plugins(@babel/core@7.20.2)
-      '@babel/types': 7.24.0
-      babel-plugin-polyfill-corejs2: 0.4.9(@babel/core@7.20.2)
-      babel-plugin-polyfill-corejs3: 0.8.7(@babel/core@7.20.2)
-      babel-plugin-polyfill-regenerator: 0.5.5(@babel/core@7.20.2)
-      core-js-compat: 3.36.0
-      semver: 6.3.1
-    transitivePeerDependencies:
-      - supports-color
-
   /@babel/preset-env@7.22.15(@babel/core@7.20.2):
     resolution: {integrity: sha512-tZFHr54GBkHk6hQuVA8w4Fmq+MSPsfvMG0vPnOYyTnJpyfMqybL8/MbNCPRT9zc2KBO2pe4tq15g6Uno4Jpoag==}
     engines: {node: '>=6.9.0'}
@@ -5850,7 +6352,7 @@ packages:
       '@babel/plugin-proposal-decorators': 7.20.2(@babel/core@7.20.2)
       '@babel/plugin-transform-class-properties': 7.22.5(@babel/core@7.20.2)
       '@babel/plugin-transform-object-rest-spread': 7.22.15(@babel/core@7.20.2)
-      '@babel/preset-env': 7.22.15
+      '@babel/preset-env': 7.22.15(@babel/core@7.20.2)
       '@babel/preset-typescript': 7.22.15(@babel/core@7.20.2)
       '@babel/runtime': 7.20.0
       '@bitdev/node.generators.node-starters': 0.0.9
@@ -9874,7 +10376,7 @@ packages:
   /@teambit/react.webpack.react-webpack@1.0.23(@teambit/legacy@node_modules+@teambit+legacy)(eslint@8.56.0)(react@18.2.0)(typescript@5.4.2)(webpack-dev-server@4.15.0):
     resolution: {integrity: sha512-mGlldzbz+/DanhvrZCJi6JUUXxQplzC796HXoWYVcIgdy6ME6Ol/TfMQR5Ubr7FFNwxevPfZWJ9ObbYAwdESVA==}
     dependencies:
-      '@babel/preset-env': 7.22.15
+      '@babel/preset-env': 7.22.15(@babel/core@7.20.2)
       '@babel/preset-react': 7.22.15
       '@bitdev/react.webpack.refresh-overlay': 0.0.1
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.11(react-refresh@0.14.0)(webpack-dev-server@4.15.0)(webpack@5.90.3)
@@ -21262,6 +21764,49 @@ packages:
       - typescript
     dev: false
 
+  file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1):
+    resolution: {directory: tk-ui-react-v2/entities/scraped-trend, type: directory}
+    id: file:tk-ui-react-v2/entities/scraped-trend
+    name: '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend'
+    dependencies:
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/node': 20.11.25
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      graphql-tag: 2.12.6(graphql@16.8.1)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@types/react'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - happy-dom
+      - jest
+      - jsdom
+      - less
+      - lightningcss
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+    dev: false
+
   file:tk-ui-react-v2/hooks/use-announcements(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(@types/node@20.11.25):
     resolution: {directory: tk-ui-react-v2/hooks/use-announcements, type: directory}
     id: file:tk-ui-react-v2/hooks/use-announcements
@@ -21333,10 +21878,80 @@ packages:
       - webpack-cli
     dev: false
 
-  file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+  file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25):
     resolution: {directory: tk-ui-react-v2/hooks/use-api, type: directory}
     id: file:tk-ui-react-v2/hooks/use-api
     name: '@takumakira-individual/tk-ui-react-v2.hooks.use-api'
+    peerDependencies:
+      '@testing-library/react': '*'
+    peerDependenciesMeta:
+      '@testing-library/react':
+        optional: true
+    dependencies:
+      '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.2.21
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist: 4.21.4
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 23.2.0
+      pino-pretty: 4.5.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-query: 3.39.3(react-dom@18.2.0)(react@18.2.0)
+      react-router-dom: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass: 1.71.1
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack: 5.90.3
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@jest/globals'
+      - '@swc/core'
+      - '@types/bun'
+      - '@types/node'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - bufferutil
+      - canvas
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - happy-dom
+      - jest
+      - less
+      - lightningcss
+      - react-native
+      - stylus
+      - subscriptions-transport-ws
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+    dev: false
+
+  file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+    resolution: {directory: tk-ui-react-v2/hooks/use-scraped-trend, type: directory}
+    id: file:tk-ui-react-v2/hooks/use-scraped-trend
+    name: '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend'
     peerDependencies:
       '@testing-library/react': '*'
       react: '*'
@@ -21346,9 +21961,12 @@ packages:
       react:
         optional: true
     dependencies:
+      '@acme/acme.testing.mock-provider': 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend': file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api': file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
       '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -21393,6 +22011,7 @@ packages:
       - jest
       - less
       - lightningcss
+      - react-native
       - stylus
       - subscriptions-transport-ws
       - sugarss
@@ -21549,6 +22168,7 @@ packages:
       '@bitdev/platforms.platform': 0.0.0-483e9fc56cee6e403caf0d0331d36acf1b0a281b
       '@mdx-js/react': 1.6.22(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service': file:tk-ui-react-v2/tk-ui-react-v2-service(@types/react@18.2.23)(graphql-tag@2.12.6)(graphql@16.8.1)(jsdom@23.2.0)(sass@1.71.1)
+      '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express': file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
       '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-web': file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       '@types/jest': 29.5.12
@@ -21578,7 +22198,6 @@ packages:
       - '@vitest/ui'
       - bufferutil
       - canvas
-      - encoding
       - esbuild
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -21588,6 +22207,7 @@ packages:
       - jsdom
       - less
       - lightningcss
+      - react-native
       - react-router-dom
       - sass
       - stylus
@@ -21657,6 +22277,52 @@ packages:
       - typescript
     dev: false
 
+  file:tk-ui-react-v2/tk-ui-react-v2-service-express(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1):
+    resolution: {directory: tk-ui-react-v2/tk-ui-react-v2-service-express, type: directory}
+    id: file:tk-ui-react-v2/tk-ui-react-v2-service-express
+    name: '@takumakira-individual/tk-ui-react-v2.tk-ui-react-v2-service-express'
+    dependencies:
+      '@bitdev/node.node-server': 0.0.12
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend': file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(jsdom@23.2.0)(sass@1.71.1)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/node': 20.11.25
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      express: 4.18.3
+      graphql: 16.8.1
+      graphql-tag: 2.12.6(graphql@16.8.1)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@types/react'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - happy-dom
+      - jest
+      - jsdom
+      - less
+      - lightningcss
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+    dev: false
+
   file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0):
     resolution: {directory: tk-ui-react-v2/tk-ui-react-v2-web, type: directory}
     id: file:tk-ui-react-v2/tk-ui-react-v2-web
@@ -21684,9 +22350,11 @@ packages:
       '@bitdev/react.app-types.vite-react': 1.1.26(@types/node@20.11.25)(sass@1.71.1)
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api': file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher': file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors': file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements': file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart': file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart': file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.nav-bar': file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -21736,6 +22404,7 @@ packages:
       - jest
       - less
       - lightningcss
+      - react-native
       - stylus
       - subscriptions-transport-ws
       - sugarss
@@ -21808,6 +22477,81 @@ packages:
       - jest
       - less
       - lightningcss
+      - stylus
+      - subscriptions-transport-ws
+      - sugarss
+      - supports-color
+      - terser
+      - typescript
+      - uglify-js
+      - utf-8-validate
+      - webpack-cli
+    dev: false
+
+  file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+    resolution: {directory: tk-ui-react-v2/ui/job-trend-chart, type: directory}
+    id: file:tk-ui-react-v2/ui/job-trend-chart
+    name: '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart'
+    peerDependencies:
+      '@testing-library/react': '*'
+      react: '*'
+    peerDependenciesMeta:
+      '@testing-library/react':
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@mdx-js/mdx': 1.6.22
+      '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-api': file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend': file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart': file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
+      '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
+      '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
+      '@types/jest': 29.5.12
+      '@types/react': 18.2.23
+      '@types/react-dom': 18.2.21
+      '@types/testing-library__jest-dom': 5.14.9
+      '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.4.2)
+      browserslist: 4.21.4
+      eslint: 8.56.0
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)
+      eslint-plugin-jest: 27.6.3(@typescript-eslint/eslint-plugin@6.19.1)(eslint@8.56.0)(typescript@5.4.2)
+      eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
+      eslint-plugin-mdx: 3.1.5(eslint@8.56.0)
+      eslint-plugin-react: 7.33.2(eslint@8.56.0)
+      eslint-plugin-react-hooks: 4.6.0(eslint@8.56.0)
+      graphql: 16.8.1
+      jsdom: 23.2.0
+      pino-pretty: 4.5.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-router-dom: 6.22.3(react-dom@18.2.0)(react@18.2.0)
+      sass: 1.71.1
+      vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
+      webpack: 5.90.3
+    transitivePeerDependencies:
+      - '@edge-runtime/vm'
+      - '@jest/globals'
+      - '@swc/core'
+      - '@types/bun'
+      - '@types/node'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - bufferutil
+      - canvas
+      - esbuild
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - graphql-ws
+      - happy-dom
+      - jest
+      - less
+      - lightningcss
+      - react-native
       - stylus
       - subscriptions-transport-ws
       - sugarss

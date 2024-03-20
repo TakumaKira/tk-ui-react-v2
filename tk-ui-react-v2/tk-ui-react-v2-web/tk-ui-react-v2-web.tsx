@@ -3,8 +3,9 @@ import classNames from 'classnames';
 import { Colors, colorsTokensDark } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
 import { useThemeSwitcher, Theme } from '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher';
 import { NavBar } from '@takumakira-individual/tk-ui-react-v2.ui.nav-bar';
-import { LineChart, LineChartProps } from '@takumakira-individual/tk-ui-react-v2.ui.line-chart';
+import { LineChart, LineChartProps, getColor } from '@takumakira-individual/tk-ui-react-v2.ui.line-chart';
 import { ApiQueryClientProvider, useApi } from '@takumakira-individual/tk-ui-react-v2.hooks.use-api';
+import { JobTrendChart } from '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart';
 import styles from './tk-ui-react-v2-web.module.scss';
 
 const getPosts = (postId: number) => () => fetch(`https://jsonplaceholder.typicode.com/posts/${postId ?? ''}`).then(res => res.json())
@@ -36,13 +37,13 @@ function ChartViewer() {
   useEffect(() => {
     if (!tokyoData || !berlinData) return
     setLineChartData({
-      labels: tokyoData.hourly.time,
+      labels: tokyoData.hourly.time.map(t => new Date(t).toLocaleString()),
       datasets: [
         {
           label: 'Tokyo',
           data: tokyoData.hourly.temperature_2m,
           fill: false,
-          borderColor: 'rgb(75, 192, 192)',
+          borderColor: getColor(0),
           tension: 0.1,
           pointStyle: false,
         },
@@ -50,7 +51,7 @@ function ChartViewer() {
           label: 'Berlin',
           data: berlinData.hourly.temperature_2m,
           fill: false,
-          borderColor: 'rgb(192, 75, 192)',
+          borderColor: getColor(1),
           tension: 0.1,
           pointStyle: false,
         },
@@ -74,6 +75,7 @@ export function TkUiReactV2Web() {
             <div className={classNames(styles.content)}>
               <PostViewer />
               <ChartViewer />
+              <JobTrendChart />
             </div>
           </main>
         </div>
