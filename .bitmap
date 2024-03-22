@@ -14,7 +14,12 @@
         "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/entities/announcement"
+        "rootDir": "tk-ui-react-v2/entities/announcement",
+        "config": {
+            "teambit.component/remove": {
+                "removed": true
+            }
+        }
     },
     "entities/scraped-trend": {
         "name": "entities/scraped-trend",
@@ -35,7 +40,12 @@
         "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/hooks/use-announcements"
+        "rootDir": "tk-ui-react-v2/hooks/use-announcements",
+        "config": {
+            "teambit.component/remove": {
+                "removed": true
+            }
+        }
     },
     "hooks/use-api": {
         "name": "hooks/use-api",
@@ -84,7 +94,12 @@
         "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/tk-ui-react-v2-service"
+        "rootDir": "tk-ui-react-v2/tk-ui-react-v2-service",
+        "config": {
+            "teambit.component/remove": {
+                "removed": true
+            }
+        }
     },
     "tk-ui-react-v2-service-express": {
         "name": "tk-ui-react-v2-service-express",
@@ -112,7 +127,12 @@
         "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "tk-ui-react-v2/ui/announcements"
+        "rootDir": "tk-ui-react-v2/ui/announcements",
+        "config": {
+            "teambit.component/remove": {
+                "removed": true
+            }
+        }
     },
     "ui/job-trend-chart": {
         "name": "ui/job-trend-chart",
