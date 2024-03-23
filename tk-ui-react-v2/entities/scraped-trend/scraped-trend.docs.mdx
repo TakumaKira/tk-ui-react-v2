@@ -11,7 +11,19 @@ both backend and frontend.
 Install and use the entity to create a new instance:
 
 ```ts
-const scrapedTrend = ScrapedTrend.from({
-  name: 'hello'
-});
+const scrapedTrend = ScrapedTrend.from(
+  {
+    url: 'https://target-site.com',
+    results: [
+      {
+        count: 10,
+        scrape_date: '2021-01-01 00:00:00',
+      },
+    ]
+  },
+  (data: any): { count: number } => {
+    if (typeof count !== 'number') throw new Error('count must be a number')
+    return { count }
+  } // Validate properties other than `scrape_date`. This also defines data type of ScrapedTrend automatically.
+);
 ```

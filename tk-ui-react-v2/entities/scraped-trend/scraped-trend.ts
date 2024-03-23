@@ -27,7 +27,7 @@ export class ScrapedTrend<DataTypeWithoutDate extends Record<string, any>> {
   toObject() {
     return {
       url: this.url,
-      results: this.results.map(({ scrape_date, ...rest }) => ({ ...rest, scrape_date: scrape_date.toString() }))
+      results: this.results.map(({ scrape_date, ...rest }) => ({ ...rest, scrape_date: scrape_date.toISOString() }))
     };
   }
 
