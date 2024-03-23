@@ -7,7 +7,7 @@ import { PlainScrapedTrend, ScrapedTrend, mockPlainScrapedTrend } from '@takumak
  * A useScrapedTrend React hook.
  */
 export function useScrapedTrend<DataTypeWithoutDate extends Record<string, any>>(url: string, validator: (data: any) => DataTypeWithoutDate): undefined | null | ScrapedTrend<DataTypeWithoutDate>[] {
-  const { isLoading, error, data } = useApi(['scrapedTrend'], () => fetch(url).then(res => res.json()))
+  const { isLoading, isError, data } = useApi(['scrapedTrend'], () => fetch(url).then(res => res.json()))
   const validatedScrapedTrend = useMemo(() => {
     return data
       ? data.flatMap(assumedScrapedTrend => {
@@ -26,8 +26,8 @@ export function useScrapedTrend<DataTypeWithoutDate extends Record<string, any>>
     return mockScrapedTrend;
   }
 
-  if (!data || isLoading) return undefined;
-  if (data.error || error || !Array.isArray(data)) return null;
+  if (isLoading || !data) return undefined;
+  if (isError || !Array.isArray(data)) return null;
 
   return validatedScrapedTrend;
 }
