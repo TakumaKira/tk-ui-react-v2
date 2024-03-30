@@ -28,7 +28,7 @@ export class ApiError<ErrorData extends Record<string, any> = any> extends Error
 /**
  * A useApi React hook.
  */
-export function useApi<Data extends Record<string, any> = any>(queryKey: string | unknown[], queryFn: () => Promise<Response>): { isLoading: boolean, isError: boolean, apiError: ApiError | null | undefined, data: Data | undefined } {
+export function useApi<Data extends any = any>(queryKey: string | unknown[], queryFn: () => Promise<Response>): { isLoading: boolean, isError: boolean, apiError: ApiError | null | undefined, data: Data | undefined } {
   const {
     isLoading,
     data: response,
@@ -50,6 +50,9 @@ export function useApi<Data extends Record<string, any> = any>(queryKey: string 
   }, [isRejected, isLoading, response])
   const [errorData, setErrorData] = useState()
   const apiError = useMemo<ApiError | null | undefined>(() => {
+    if (isLoading) {
+      return undefined
+    }
     if (!isError) {
       return null
     }

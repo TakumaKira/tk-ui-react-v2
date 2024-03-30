@@ -3,11 +3,10 @@ import { useScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.hooks.use
 import { LineChart, LineChartProps, getColor } from '@takumakira-individual/tk-ui-react-v2.ui.line-chart';
 
 const jobTrendDataValidator = (data: any): { job_title: string, job_location: string, count: number } => {
-  const { job_title: jobTitle, job_location: jobLocation, count } = data
-  if (typeof jobTitle !== 'string') throw new Error('job_title must be a string')
-  if (typeof jobLocation !== 'string') throw new Error('job_location must be a string')
-  if (typeof count !== 'number') throw new Error('count must be a number')
-  return { job_title: jobTitle, job_location: jobLocation, count }
+  if (typeof data?.jobTitle !== 'string') throw new Error('job_title must be a string')
+  if (typeof data?.jobLocation !== 'string') throw new Error('job_location must be a string')
+  if (typeof data?.count !== 'number') throw new Error('count must be a number')
+  return { job_title: data.jobTitle, job_location: data.jobLocation, count: data?.count }
 }
 
 export function JobTrendChart() {

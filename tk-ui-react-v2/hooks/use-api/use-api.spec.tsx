@@ -42,3 +42,14 @@ it('should return error when getting network error', async () => {
   await waitFor(() => expect(result.current.apiError).toBe(undefined))
   await waitFor(() => expect(result.current.data).toBe(undefined))
 })
+
+it('should return loading states when fetching', async () => {
+  const wrapper = ({ children }) => (
+    <ApiQueryClientProvider>{children}</ApiQueryClientProvider>
+  )
+  const { result } = renderHook(() => useApi('dataKey3', () => new Promise(() => {})), { wrapper })
+  await waitFor(() => expect(result.current.isLoading).toBe(true))
+  await waitFor(() => expect(result.current.isError).toBe(false))
+  await waitFor(() => expect(result.current.apiError).toBe(undefined))
+  await waitFor(() => expect(result.current.data).toBe(undefined))
+})

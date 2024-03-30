@@ -3,15 +3,22 @@ description: 'A useScrapedTrend React Hook.'
 labels: ['hook', 'react']
 ---
 
-A react hook for incrementing the state of count by 1 each time increment() is invoked.
+A react hook for getting data from API with type validated.
 
 ## Get started
 
 Install and use the hook in your components:
 
 ```tsx
+type DataTypeWithoutDate = { job_title: string, job_location: string, count: number }
+const validator = (data: any): DataTypeWithoutDate => {
+  if (typeof data?.job_title !== 'string') throw new Error('job_title must be a string')
+  if (typeof data?.job_location !== 'string') throw new Error('job_location must be a string')
+  if (typeof data?.count !== 'number') throw new Error('count must be a number')
+  return { job_title: data.job_title, job_location: data.job_location, count: data.count }
+}
 export function MyComponent() {
-  const response = useCounter();
-  return <div onClick={response.increment}>The count is {response.count}</div>;
+  const scrapedTrend: ScrapedTrend<DataTypeWithoutDate>[] = useScrapedTrend('https://my-api.com', validator);
+  return <MyTrendChart scrapedTrend={scrapedTrend}>;
 }
 ```
