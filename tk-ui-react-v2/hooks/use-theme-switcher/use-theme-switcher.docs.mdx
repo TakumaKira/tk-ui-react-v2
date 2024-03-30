@@ -25,3 +25,18 @@ export function MyComponent() {
   );
 }
 ```
+
+import { Colors, colorsTokensDark } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
+import { useThemeSwitcher, Theme } from './use-theme-switcher';
+
+```tsx live
+function MyComponent() {
+  const { theme, setTheme } = useThemeSwitcher(true);
+  return (
+    <Colors overrides={theme === Theme.DARK ? colorsTokensDark : undefined}>
+      <span>The theme is {theme}.</span>
+      <button onClick={() => setTheme(theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT)}>Toggle theme</button>
+    </Colors>
+  );
+}
+```
