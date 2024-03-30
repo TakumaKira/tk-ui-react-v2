@@ -10,6 +10,9 @@ A react hook for getting data from API with type validated.
 Install and use the hook in your components:
 
 ```tsx
+import { useScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend';
+import { ScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend';
+
 type DataTypeWithoutDate = { job_title: string, job_location: string, count: number }
 const validator = (data: any): DataTypeWithoutDate => {
   if (typeof data?.job_title !== 'string') throw new Error('job_title must be a string')

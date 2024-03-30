@@ -10,6 +10,9 @@ A react hook for getting data from API.
 Install and use the hook in your components:
 
 ```tsx
+import { useState } from 'react';
+import { useApi } from '@takumakira-individual/tk-ui-react-v2.hooks.use-api';
+
 export default function MyComponent() {
   const [postId, setPostId] = useState<number>(1)
   const { isLoading, data, isError, apiError } = useApi(['dataKey', { postId }], (postId: number) => () => fetch(`https://jsonplaceholder.typicode.com/posts/${postId ?? ''}`));

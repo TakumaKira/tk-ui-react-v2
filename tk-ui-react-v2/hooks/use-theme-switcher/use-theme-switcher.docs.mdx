@@ -3,7 +3,7 @@ description: 'A useThemeSwitcher React Hook.'
 labels: ['hook', 'react']
 ---
 
-A react hook for incrementing the state of count by 1 each time increment() is invoked.
+A react hook for managing switching theme, respecting color scheme.
 
 ## Get started
 
@@ -13,11 +13,14 @@ Install and use the hook in your components:
 import { Colors, colorsTokensDark } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
 import { useThemeSwitcher, Theme } from '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher';
 
+const ignoreColorSchemeChangeAfterSetThemeEverCalled = false // Default is `true`.
+
 export function MyComponent() {
-  const theme = useThemeSwitcher();
+  const { theme, setTheme } = useThemeSwitcher(ignoreColorSchemeChangeAfterSetThemeEverCalled);
   return (
     <Colors overrides={theme === Theme.DARK ? colorsTokensDark : undefined}>
-      The theme is {theme}
+      <span>The theme is {theme}.</span>
+      <button onClick={() => setTheme(theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT)}>Toggle theme</button>
     </Colors>
   );
 }

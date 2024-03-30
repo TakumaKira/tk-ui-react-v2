@@ -65,7 +65,7 @@ function ChartViewer() {
 }
 
 export function TkUiReactV2Web() {
-  const theme = useThemeSwitcher()
+  const { theme } = useThemeSwitcher()
   return (
     <ApiQueryClientProvider>
       <Colors overrides={theme === Theme.DARK ? colorsTokensDark : undefined}>
