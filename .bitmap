@@ -19,14 +19,14 @@
     "hooks/use-api": {
         "name": "hooks/use-api",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/hooks/use-api"
     },
     "hooks/use-scraped-trend": {
         "name": "hooks/use-scraped-trend",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/hooks/use-scraped-trend"
     },
@@ -47,7 +47,7 @@
     "tk-ui-react-v2": {
         "name": "tk-ui-react-v2",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2"
     },
@@ -61,14 +61,14 @@
     "tk-ui-react-v2-web": {
         "name": "tk-ui-react-v2-web",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2-web"
     },
     "ui/job-trend-chart": {
         "name": "ui/job-trend-chart",
         "scope": "takumakira-individual.tk-ui-react-v2",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/ui/job-trend-chart"
     },
