@@ -10,8 +10,7 @@ A react hook for getting data from API with type validated.
 Install and use the hook in your components:
 
 ```tsx
-import { useScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend';
-import { ScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend';
+import { useScrapedTrend, ApiQueryClientProvider, ScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend';
 
 type DataTypeWithoutDate = { job_title: string, job_location: string, count: number }
 const validator = (data: any): DataTypeWithoutDate => {
@@ -23,5 +22,20 @@ const validator = (data: any): DataTypeWithoutDate => {
 export function MyComponent() {
   const scrapedTrend: ScrapedTrend<DataTypeWithoutDate>[] = useScrapedTrend('https://my-api.com', validator);
   return <MyTrendChart scrapedTrend={scrapedTrend}>;
+}
+```
+
+Then, you need to wrap your component with `ApiQueryClientProvider` to provide useScrapedTrend the query client:
+
+```tsx
+import { ApiQueryClientProvider } from '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend';
+import { MyComponent } from './MyComponent';
+
+export function App() {
+  return (
+    <ApiQueryClientProvider>
+      <MyComponent />
+    </ApiQueryClientProvider>
+  );
 }
 ```

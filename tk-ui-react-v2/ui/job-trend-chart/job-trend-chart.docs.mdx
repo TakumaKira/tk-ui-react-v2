@@ -2,18 +2,59 @@
 description: A JobTrendChart component.
 ---
 
-import { JobTrendChart } from './job-trend-chart';
-
 ## Basic usage
 
-Use the job trend chart component:
+```tsx
+import { JobTrendChart, ApiQueryClientProvider, Result } from '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart';
 
-```js
-<JobTrendChart />
+type JobTrendData = { job_title: string, job_location: string, count: number }
+
+const jobTrendDataValidator = (data: any): JobTrendData => {
+  if (typeof data?.job_title !== 'string') throw new Error('job_title must be a string')
+  if (typeof data?.job_location !== 'string') throw new Error('job_location must be a string')
+  if (typeof data?.count !== 'number') throw new Error('count must be a number')
+  return { job_title: data.job_title, job_location: data.job_location, count: data?.count }
+}
+
+const labelGetter = (data: Result<JobTrendData>) => `${data.job_title}/${data.job_location}`
+
+const countGetter = (data: Result<JobTrendData>) => data.count
+
+export const BasicJobTrendChart = () => {
+  return (
+    <ApiQueryClientProvider>
+      <JobTrendChart
+        jobTrendDataApiEndpoint='http://job-trend-data-api-endpoint.com'
+        jobTrendDataValidator={jobTrendDataValidator}
+        labelGetter={labelGetter}
+        countGetter={countGetter}
+      />
+    </ApiQueryClientProvider>
+  );
+}
 ```
 
-### Display the text
+## Playground
+
+import { JobTrendChart, ApiQueryClientProvider } from '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart';
+import { MockProvider } from '@acme/acme.testing.mock-provider';
 
 ```js live
-<JobTrendChart>Hello world!</JobTrendChart>
+<MockProvider>
+  <ApiQueryClientProvider>
+    <JobTrendChart
+      jobTrendDataApiEndpoint='http://localhost:5000'
+      jobTrendDataValidator={data => {
+        if (typeof data?.job_title !== 'string') throw new Error('job_title must be a string')
+        if (typeof data?.job_location !== 'string') throw new Error('job_location must be a string')
+        if (typeof data?.count !== 'number') throw new Error('count must be a number')
+        return { job_title: data.job_title, job_location: data.job_location, count: data?.count }
+      }}
+      labelGetter={data => `${data.job_title}/${data.job_location}`}
+      countGetter={data => data.count}
+    />
+  </ApiQueryClientProvider>
+</MockProvider>
 ```
+
+* Notice: `useScrapedTrend` returns mock data in the live example above as it is sorrounded by `MockProvider`.

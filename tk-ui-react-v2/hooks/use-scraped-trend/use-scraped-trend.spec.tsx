@@ -1,7 +1,8 @@
 import { renderHook } from '@testing-library/react';
 import { vi } from 'vitest'
 import { useScrapedTrend } from './use-scraped-trend.js';
-import { PlainScrapedTrend, ScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend';
+import { ScrapedTrend } from './index.js';
+import { PlainScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend';
 import { useApi } from '@takumakira-individual/tk-ui-react-v2.hooks.use-api';
 
 vi.mock('@takumakira-individual/tk-ui-react-v2.hooks.use-api', async importOriginal => {

@@ -30,7 +30,7 @@ export class ApiError<ErrorData extends Record<string, any> = any> extends Error
  */
 export function useApi<Data extends any = any>(queryKey: string | unknown[], queryFn: () => Promise<Response>): { isLoading: boolean, isError: boolean, apiError: ApiError | null | undefined, data: Data | undefined } {
   const {
-    isLoading,
+    isLoading: isLoadingOriginal,
     data: response,
     /**
      * `true` only when queryFn is rejected.
@@ -39,37 +39,49 @@ export function useApi<Data extends any = any>(queryKey: string | unknown[], que
      */
     isError: isRejected
   } = useQuery<Response, ApiError, Response, string | unknown[]>({ queryKey, queryFn })
+  const [isLoading, setIsLoading] = useState(true)
   const isError = useMemo(() => {
+    if (isLoadingOriginal) {
+      return false
+    }
     if (isRejected) {
+      setIsLoading(false)
       return true
     }
     if (!response) {
-      return !isLoading
+      setIsLoading(false)
+      return true
     }
-    return response.status >= 400
-  }, [isRejected, isLoading, response])
+    if (response.status >= 400) {
+      setIsLoading(false)
+      return true
+    }
+    return false
+  }, [isRejected, isLoadingOriginal, response])
   const [errorData, setErrorData] = useState()
   const apiError = useMemo<ApiError | null | undefined>(() => {
-    if (isLoading) {
+    if (isLoadingOriginal) {
+      return undefined
+    }
+    if (isRejected) {
       return undefined
     }
     if (!isError) {
       return null
     }
-    if (isRejected) {
-      return undefined
-    }
     const apiErrorLocal = new ApiError()
     apiErrorLocal.response = response
     apiErrorLocal.response.data = errorData
     return apiErrorLocal
-  }, [isError, isRejected, response, errorData])
+  }, [isLoadingOriginal, isError, isRejected, response, errorData])
   const [data, setData] = useState<Data | undefined>()
   useEffect(() => {
-    if (!response) {
-      return undefined
+    if (!response || response.bodyUsed) {
+      return
     }
-    response.json().then(isError ? setErrorData : setData)
+    response.json()
+      .then(isError ? setErrorData : setData)
+      .then(() => setIsLoading(false))
   }, [isError, response])
   return { isLoading, data, isError, apiError };
 }
