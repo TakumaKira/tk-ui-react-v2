@@ -1,7 +1,15 @@
 import { useEffect, useMemo, useState } from 'react';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
 
-/// <reference types="node" />
+// Ripple CI typescript environment does not recognize process by default, so I added this to avoid the error on CI build.
+declare var process: {
+  env: {
+    NODE_ENV: string;
+    // Add other environment variables as needed
+  };
+  // Add other properties and methods of `process` as needed
+}
+
 function isTestEnvironment() {
   return process?.env?.NODE_ENV === 'test'
 }
