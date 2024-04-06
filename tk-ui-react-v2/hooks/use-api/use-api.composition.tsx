@@ -1,15 +1,3 @@
----
-description: 'A useApi React Hook.'
-labels: ['hook', 'react']
----
-
-A react hook for getting data from API.
-
-## Get started
-
-Install and use the hook in your components:
-
-```tsx
 import { useState } from 'react';
 import { useApi, ApiQueryClientProvider } from './use-api.js';
 
@@ -28,11 +16,10 @@ function MyComponent() {
   );
 }
 
-function Wrapper() {
+export function Wrapper() {
   return (
     <ApiQueryClientProvider>
       <MyComponent />
     </ApiQueryClientProvider>
   )
 }
-```

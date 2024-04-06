@@ -3,17 +3,76 @@ description: A LineChart component.
 ---
 
 import { LineChart } from './line-chart';
+import { getColor } from './colors';
 
 ## Basic usage
 
 Use the line chart component:
 
 ```js
-<LineChart />
+import { LineChart, getColor } from '@takumakira-individual/tk-ui-react-v2.ui.line-chart';
 ```
 
-### Display the text
+```jsx live
+function BasicLineChart() {
+  const data = {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    datasets: [
+      {
+        label: 'My First Dataset',
+        data: [65, 59, 80, 81, 56, 55, 40],
+        fill: false,
+        borderColor: getColor[0],
+        tension: 0.1,
+        pointStyle: false,
+      },
+      {
+        label: 'My Second Dataset',
+        data: [56, 95, 8, 18, 65, 55, 4],
+        fill: false,
+        borderColor: getColor[1],
+        tension: 0.1,
+        pointStyle: false,
+      },
+    ],
+  }
+  return (
+    <LineChart data={data} />
+  );
+}
+```
 
-```js live
-<LineChart>Hello world!</LineChart>
+## TypeScript
+
+I recommend using TypeScript with the LineChart component for making sure of your data prop. Here is an example of how to use the LineChart component with TypeScript:
+
+```tsx
+import { LineChart, LineChartProps, getColor } from '@takumakira-individual/tk-ui-react-v2.ui.line-chart';
+
+export function BasicLineChart() {
+  const data: LineChartProps['data'] = {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    datasets: [
+      {
+        label: 'My First Dataset',
+        data: [65, 59, 80, 81, 56, 55, 40],
+        fill: false,
+        borderColor: getColor[0],
+        tension: 0.1,
+        pointStyle: false,
+      },
+      {
+        label: 'My Second Dataset',
+        data: [56, 95, 8, 18, 65, 55, 4],
+        fill: false,
+        borderColor: getColor[1],
+        tension: 0.1,
+        pointStyle: false,
+      },
+    ],
+  }
+  return (
+    <LineChart data={data} />
+  );
+}
 ```

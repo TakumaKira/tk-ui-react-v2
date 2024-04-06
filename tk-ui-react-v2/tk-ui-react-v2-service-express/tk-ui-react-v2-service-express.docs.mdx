@@ -1,21 +1,21 @@
 ---
-labels: ['tk-ui-react-v2-service', 'graphql', 'server', 'microservice', 'apollo']
-description: 'The Acme corporate micro-service'
+labels: ['tk-ui-react-v2-service-express', 'express', 'server', 'microservice']
+description: 'express server'
 ---
 
-A Corporate micro-service component. Provides a GraphQL and REST APIs for accessing corporate information from services and apps across the Acme platform.
+A tk-ui-react-v2-service-express component. Provides a RESTful API for the platform.
 
 ## Run the server 
 
 Import the platform and use the it in your workspace:
 
 ```bash
-bit use tk-ui-react-v2-service
+bit use tk-ui-react-v2-service-express
 ```
 
 Run the server:
 ```bash
-bit run tk-ui-react-v2-service
+bit run tk-ui-react-v2-service-express
 ```
 
 ## Compose to your platform
@@ -30,7 +30,7 @@ export const MyPlatform = Platform.from({
   backends: {
     main: new AcmeGateway(),
     services: [
-      TkUiReactV2Service,
+      TkUiReactV2ServiceExpress,
     ]
   },
 });

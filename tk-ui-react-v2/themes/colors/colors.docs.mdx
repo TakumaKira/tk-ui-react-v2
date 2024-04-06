@@ -11,30 +11,67 @@ To use the theme in your app, install the theme and apply it on your component t
 Themes are usually applied on the root of your component tree.
 
 ```tsx
-export function MyApp() {
+import { Colors } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
+
+export function Example1GetStarted() {
   return (
     <Colors>
-      <Homepage />
+      hello world!
     </Colors>
   );
 }
 ```
 
-## Compose the theme
+## Use dark theme
+
+```tsx
+import { Colors, colorsTokensDark } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
+
+export function Example2UseDarkTheme() {
+  return (
+    <Colors overrides={colorsTokensDark}>
+      hello dark world!
+    </Colors>
+  );
+};
+```
+
+## Theme usage
+
+```tsx
+import { Colors, colorsTokensDark } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
+
+export function Example3ThemeUsage() {
+  return (
+    <Colors overrides={colorsTokensDark}>
+      <div style={{ padding: 8 }}>
+        theme example content
+        <p style={{ border: '1px solid var(--border-color)' }}>This is bordered.</p>
+      </div>
+    </Colors>
+  );
+};
+```
+
+## Customize theme
 
 You can compose your theme to create specific variations such as Dark or Light themes, overriding some or all of its properties. 
 To compose your theme, create a new component and use the theme as following:
 
 ```tsx
-const myTokenOverrides: WallyThemeSchema = {
-  backgroundColor: 'black'
+import { Colors, colorsTokens } from '@takumakira-individual/tk-ui-react-v2.themes.colors';
+
+const myTokenOverrides = {
+  ...colorsTokens,
+  backgroundColor: '#d2d2d2',
+  textColor: '#1616ab',
 };
 
-export function MyApp() {
+export function Example4CustomizeTheme() {
   return (
     <Colors overrides={myTokenOverrides}>
-      <Homepage />
+      theme example content
     </Colors>
   );
-}
+};
 ```

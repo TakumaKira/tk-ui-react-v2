@@ -73,6 +73,8 @@
         "@vitejs/plugin-react": "^4.2.1",
         "chart.js": "^4.4.2",
         "classnames": "^2.3.2",
+        "cors": "^2.8.5",
+        "express": "^4.18.3",
         "react-query": "^3.39.3",
         "vite": "^5.0.8"
       },
@@ -84,5 +86,6 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
   },
-  "takumakira-individual.tk-ui-react-v2/tk-ui-react-v2": {}
+  "takumakira-individual.tk-ui-react-v2/tk-ui-react-v2": {},
+  "takumakira-individual.tk-ui-react-v2/tk-ui-react-v2-service-express": {}
 }

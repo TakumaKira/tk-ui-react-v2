@@ -24,7 +24,7 @@ export const colorsTokens = {
   /**
    * color to use for borders.
    */
-  borderColor: '#ededed',
+  borderColor: '#cdcdcd',
 
   /**
    * color for secondary surfaces on the screen such 

@@ -15,7 +15,35 @@ Use the nav bar component:
 ### Display the text
 
 ```js live
-<div style={{ width: 500 }}>
+<div style={{ width: 500, backgroundColor: '#b3b3b3' }}>
   <NavBar>Hello world!</NavBar>
 </div>
 ```
+
+* Assuming the container div has 500px width here.
+
+### Set original height
+
+```js live
+<div style={{ width: 500, backgroundColor: '#b3b3b3' }}>
+  <NavBar height={48}>Hello world!</NavBar>
+</div>
+```
+
+* Assuming the container div has 500px width here.
+
+### Set original text styles
+
+import originalTitleStyles from './nav-bar.docs.module.scss'
+
+```js
+import originalTitleStyles from './nav-bar.docs.module.scss'
+```
+
+```js live
+<div style={{ width: 500, backgroundColor: '#b3b3b3' }}>
+  <NavBar titleStyles={originalTitleStyles.text}>Hello world!</NavBar>
+</div>
+```
+
+* Assuming the container div has 500px width here.
