@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
 
+/// <reference types="node" />
 function isTestEnvironment() {
   return process?.env?.NODE_ENV === 'test'
 }
