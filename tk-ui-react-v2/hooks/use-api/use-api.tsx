@@ -1,10 +1,14 @@
 import { useEffect, useMemo, useState } from 'react';
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
 
+function isTestEnvironment() {
+  return process?.env?.NODE_ENV === 'test'
+}
+
 const apiQueryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      retry: process.env.NODE_ENV === 'test' ? false : undefined,
+      retry: isTestEnvironment() ? false : undefined,
     },
   }
 })
