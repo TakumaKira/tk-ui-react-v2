@@ -1,0 +1,68 @@
+---
+labels: ['scraped trend', 'entity']
+description: 'A ScrapedTrend entity.'
+---
+
+A component for a ScrapedTrend entity, supports serialization and de-serialization of ScrapedTrend objects and can be used from
+both backend and frontend.
+
+## Get started
+
+Install and use the entity to create a new instance:
+
+```ts
+import { ScrapedTrend } from '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend';
+
+const scrapedTrend = ScrapedTrend.from(
+  {
+    url: 'https://target-site.com',
+    results: [
+      {
+        count: 10,
+        scrape_date: '2021-01-01 00:00:00',
+      },
+    ]
+  },
+  (data: any): { count: number } => {
+    if (typeof count !== 'number') throw new Error('count must be a number')
+    return { count }
+  } // Validate properties other than `scrape_date`. This also defines data type of ScrapedTrend automatically.
+);
+```
+
+If you need help to find why some data are ignored as invalid, this can provide the reason if you passed `showValidationErrors` flag.
+
+```ts
+const scrapedTrend = ScrapedTrend.from(
+  {
+    url: 'https://target-site.com',
+    results: [
+      {
+        scrape_date: '2021-01-01 00:00:00',
+      },
+      {
+        count: 10,
+      },
+    ]
+  },
+  (data: any): { count: number } => {
+    if (typeof count !== 'number') throw new Error('count must be a number')
+    return { count }
+  }, // Validate properties other than `scrape_date`. This also defines data type of ScrapedTrend automatically.
+  true // <- Pass `true` for the 3rd argument.
+);
+```
+
+Then you will get like the following console errors:
+
+```stderr
+Error: The result has invalid data
+    at ...
+{ scrape_date: '2021-01-01 00:00:00' }
+Error: count must be a number
+    at ...
+
+Error: The result has no scrape_date property
+    at ...
+{ count: 10 }
+```

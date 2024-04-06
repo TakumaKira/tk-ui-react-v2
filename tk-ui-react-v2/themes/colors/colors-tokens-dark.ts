@@ -25,7 +25,7 @@ export const colorsTokensDark: ColorsSchema = {
   /**
    * color to use for borders.
    */
-  borderColor: '#121212',
+  borderColor: '#646464',
 
   /**
    * color for secondary surfaces on the screen such 
