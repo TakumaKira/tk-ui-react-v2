@@ -11,9 +11,8 @@
 {
     "entities/scraped-trend": {
         "name": "entities/scraped-trend",
-        "scope": "",
+        "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "1.0.0",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/entities/scraped-trend"
     },
@@ -26,9 +25,8 @@
     },
     "hooks/use-scraped-trend": {
         "name": "hooks/use-scraped-trend",
-        "scope": "",
+        "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "1.0.0",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/hooks/use-scraped-trend"
     },
@@ -55,9 +53,8 @@
     },
     "tk-ui-react-v2-service-express": {
         "name": "tk-ui-react-v2-service-express",
-        "scope": "",
+        "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "1.0.0",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/tk-ui-react-v2-service-express"
     },
@@ -70,9 +67,8 @@
     },
     "ui/job-trend-chart": {
         "name": "ui/job-trend-chart",
-        "scope": "",
+        "scope": "takumakira-individual.tk-ui-react-v2",
         "version": "1.0.0",
-        "defaultScope": "takumakira-individual.tk-ui-react-v2",
         "mainFile": "index.ts",
         "rootDir": "tk-ui-react-v2/ui/job-trend-chart"
     },
