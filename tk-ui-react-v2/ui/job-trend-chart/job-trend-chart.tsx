@@ -26,11 +26,15 @@ export type JobTrendChartProps<JobTrendData extends Record<string, any>> = {
    * @returns the count
    */
   countGetter: (data: Result<JobTrendData>) => number;
+  /**
+   * sets if the mock data should be used.
+   */
+  useMockData?: boolean;
 };
 
 
-export function JobTrendChart<JobTrendData extends Record<string, any>>({ jobTrendDataApiEndpoint, jobTrendDataValidator, labelGetter, countGetter }: JobTrendChartProps<JobTrendData>) {
-  const jobTrend = useScrapedTrend(jobTrendDataApiEndpoint, jobTrendDataValidator)
+export function JobTrendChart<JobTrendData extends Record<string, any>>({ jobTrendDataApiEndpoint, jobTrendDataValidator, labelGetter, countGetter, useMockData }: JobTrendChartProps<JobTrendData>) {
+  const jobTrend = useScrapedTrend(jobTrendDataApiEndpoint, jobTrendDataValidator, useMockData)
 
   const [lineChartData, setLineChartData] = useState<LineChartProps['data']>()
   useEffect(() => {
