@@ -53,7 +53,6 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@acme/acme.testing.mock-provider": "^1.0.6",
         "@acme/design.acme-theme": "^2.0.4",
         "@acme/design.content.card": "^1.0.2",
         "@apollo/server": "^4.10.0",
