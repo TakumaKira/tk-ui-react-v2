@@ -37,24 +37,22 @@ export const BasicJobTrendChart = () => {
 ## Playground
 
 import { JobTrendChart, ApiQueryClientProvider } from './index.js';
-import { MockProvider } from '@acme/acme.testing.mock-provider';
 
 ```js live
-<MockProvider>
-  <ApiQueryClientProvider>
-    <JobTrendChart
-      jobTrendDataApiEndpoint='http://localhost:5000'
-      jobTrendDataValidator={data => {
-        if (typeof data?.job_title !== 'string') throw new Error('job_title must be a string')
-        if (typeof data?.job_location !== 'string') throw new Error('job_location must be a string')
-        if (typeof data?.count !== 'number') throw new Error('count must be a number')
-        return { job_title: data.job_title, job_location: data.job_location, count: data?.count }
-      }}
-      labelGetter={data => `${data.job_title}/${data.job_location}`}
-      countGetter={data => data.count}
-    />
-  </ApiQueryClientProvider>
-</MockProvider>
+<ApiQueryClientProvider>
+  <JobTrendChart
+    jobTrendDataApiEndpoint='http://localhost:5000'
+    jobTrendDataValidator={data => {
+      if (typeof data?.job_title !== 'string') throw new Error('job_title must be a string')
+      if (typeof data?.job_location !== 'string') throw new Error('job_location must be a string')
+      if (typeof data?.count !== 'number') throw new Error('count must be a number')
+      return { job_title: data.job_title, job_location: data.job_location, count: data?.count }
+    }}
+    labelGetter={data => `${data.job_title}/${data.job_location}`}
+    countGetter={data => data.count}
+    useMockData
+  />
+</ApiQueryClientProvider>
 ```
 
-* Notice: `useScrapedTrend` returns mock data in the live example above as it is sorrounded by `MockProvider`.
+* Notice: This gets mock data in the live example above as `useMockData` is set.

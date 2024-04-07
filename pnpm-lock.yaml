@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@acme/acme.testing.mock-provider':
-        specifier: ^1.0.6
+        specifier: 1.0.6
         version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@acme/design.acme-theme':
         specifier: ^2.0.4
@@ -193,7 +193,7 @@ importers:
         version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -208,13 +208,13 @@ importers:
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -315,7 +315,7 @@ importers:
         version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -330,13 +330,13 @@ importers:
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -458,7 +458,7 @@ importers:
         version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -473,13 +473,13 @@ importers:
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -578,7 +578,7 @@ importers:
         version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -593,13 +593,13 @@ importers:
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -710,7 +710,7 @@ importers:
         version: file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+        version: file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors':
         specifier: workspace:*
         version: file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
@@ -725,13 +725,13 @@ importers:
         version: file:tk-ui-react-v2/tk-ui-react-v2-web(@apollo/client@3.9.6)(@types/node@20.11.25)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.line-chart':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.ui.nav-bar':
         specifier: workspace:*
-        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+        version: file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@teambit/mdx.ui.mdx-scope-context':
         specifier: 1.0.7
         version: 1.0.7(@types/react@18.2.23)(react@18.2.0)
@@ -821,7 +821,7 @@ importers:
         version: 5.90.3
     devDependencies:
       '@acme/acme.testing.mock-provider':
-        specifier: ^1.0.6
+        specifier: 1.0.6
         version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@bitdev/react.react-env':
         specifier: ^1.1.49
@@ -1011,7 +1011,7 @@ importers:
   tk-ui-react-v2/hooks/use-scraped-trend:
     dependencies:
       '@acme/acme.testing.mock-provider':
-        specifier: ^1.0.6
+        specifier: 1.0.6
         version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@apollo/client':
         specifier: ^3.8.8
@@ -1536,7 +1536,7 @@ importers:
         version: 5.90.3
     devDependencies:
       '@acme/acme.testing.mock-provider':
-        specifier: ^1.0.6
+        specifier: 1.0.6
         version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@bitdev/react.react-env':
         specifier: ^1.1.49
@@ -1633,7 +1633,7 @@ importers:
         version: 5.90.3
     devDependencies:
       '@acme/acme.testing.mock-provider':
-        specifier: ^1.0.6
+        specifier: 1.0.6
         version: 1.0.6(@apollo/client@3.9.6)(@testing-library/react@14.2.1)(react-dom@18.2.0)(react-router-dom@6.22.3)(react@18.2.0)
       '@bitdev/react.react-env':
         specifier: ^1.1.49
@@ -21145,7 +21145,7 @@ packages:
       - webpack-cli
     dev: false
 
-  file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1):
+  file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1):
     resolution: {directory: tk-ui-react-v2/hooks/use-theme-switcher, type: directory}
     id: file:tk-ui-react-v2/hooks/use-theme-switcher
     name: '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher'
@@ -21164,6 +21164,7 @@ packages:
       '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.themes.colors': file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
       '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -21191,18 +21192,28 @@ packages:
       vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
       webpack: 5.90.3
     transitivePeerDependencies:
+      - '@edge-runtime/vm'
       - '@jest/globals'
       - '@swc/core'
       - '@types/bun'
+      - '@types/node'
+      - '@vitest/browser'
+      - '@vitest/ui'
       - bufferutil
       - canvas
       - esbuild
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - graphql-ws
+      - happy-dom
       - jest
+      - less
+      - lightningcss
+      - stylus
       - subscriptions-transport-ws
+      - sugarss
       - supports-color
+      - terser
       - typescript
       - uglify-js
       - utf-8-validate
@@ -21474,12 +21485,12 @@ packages:
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-api': file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
-      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher': file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+      '@takumakira-individual/tk-ui-react-v2.hooks.use-theme-switcher': file:tk-ui-react-v2/hooks/use-theme-switcher(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.themes.colors': file:tk-ui-react-v2/themes/colors(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
       '@takumakira-individual/tk-ui-react-v2.ui.announcements': file:tk-ui-react-v2/ui/announcements(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
-      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart': file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
-      '@takumakira-individual/tk-ui-react-v2.ui.line-chart': file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
-      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar': file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart': file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart': file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
+      '@takumakira-individual/tk-ui-react-v2.ui.nav-bar': file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
       '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -21611,25 +21622,28 @@ packages:
       - webpack-cli
     dev: false
 
-  file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+  file:tk-ui-react-v2/ui/job-trend-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1):
     resolution: {directory: tk-ui-react-v2/ui/job-trend-chart, type: directory}
     id: file:tk-ui-react-v2/ui/job-trend-chart
     name: '@takumakira-individual/tk-ui-react-v2.ui.job-trend-chart'
     peerDependencies:
       '@testing-library/react': '*'
       react: '*'
+      vitest: '*'
     peerDependenciesMeta:
       '@testing-library/react':
         optional: true
       react:
         optional: true
+      vitest:
+        optional: true
     dependencies:
       '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@mdx-js/mdx': 1.6.22
       '@mdx-js/react': 1.6.22(react@18.2.0)
-      '@takumakira-individual/tk-ui-react-v2.hooks.use-api': file:tk-ui-react-v2/hooks/use-api(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.entities.scraped-trend': file:tk-ui-react-v2/entities/scraped-trend(@types/react@18.2.23)(vitest@1.2.1)
       '@takumakira-individual/tk-ui-react-v2.hooks.use-scraped-trend': file:tk-ui-react-v2/hooks/use-scraped-trend(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)(vitest@1.2.1)
-      '@takumakira-individual/tk-ui-react-v2.ui.line-chart': file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0)
+      '@takumakira-individual/tk-ui-react-v2.ui.line-chart': file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1)
       '@teambit/mdx.ui.mdx-scope-context': 1.0.7(@types/react@18.2.23)(react@18.2.0)
       '@testing-library/jest-dom': 6.4.2(@types/jest@29.5.12)(vitest@1.2.1)
       '@testing-library/react': 14.2.1(react-dom@18.2.0)(react@18.2.0)
@@ -21686,17 +21700,20 @@ packages:
       - webpack-cli
     dev: false
 
-  file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+  file:tk-ui-react-v2/ui/line-chart(@testing-library/react@14.2.1)(react@18.2.0)(vitest@1.2.1):
     resolution: {directory: tk-ui-react-v2/ui/line-chart, type: directory}
     id: file:tk-ui-react-v2/ui/line-chart
     name: '@takumakira-individual/tk-ui-react-v2.ui.line-chart'
     peerDependencies:
       '@testing-library/react': '*'
       react: '*'
+      vitest: '*'
     peerDependenciesMeta:
       '@testing-library/react':
         optional: true
       react:
+        optional: true
+      vitest:
         optional: true
     dependencies:
       '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
@@ -21730,45 +21747,32 @@ packages:
       vitest: 1.2.1(@types/node@20.11.25)(jsdom@23.2.0)(sass@1.71.1)
       webpack: 5.90.3
     transitivePeerDependencies:
-      - '@edge-runtime/vm'
       - '@jest/globals'
       - '@swc/core'
       - '@types/bun'
-      - '@types/node'
-      - '@vitest/browser'
-      - '@vitest/ui'
       - bufferutil
       - canvas
       - esbuild
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - graphql-ws
-      - happy-dom
       - jest
-      - less
-      - lightningcss
-      - stylus
       - subscriptions-transport-ws
-      - sugarss
       - supports-color
-      - terser
       - typescript
       - uglify-js
       - utf-8-validate
       - webpack-cli
     dev: false
 
-  file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25)(react@18.2.0):
+  file:tk-ui-react-v2/ui/nav-bar(@testing-library/react@14.2.1)(@types/node@20.11.25):
     resolution: {directory: tk-ui-react-v2/ui/nav-bar, type: directory}
     id: file:tk-ui-react-v2/ui/nav-bar
     name: '@takumakira-individual/tk-ui-react-v2.ui.nav-bar'
     peerDependencies:
       '@testing-library/react': '*'
-      react: '*'
     peerDependenciesMeta:
       '@testing-library/react':
-        optional: true
-      react:
         optional: true
     dependencies:
       '@apollo/client': 3.9.6(@types/react@18.2.23)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
